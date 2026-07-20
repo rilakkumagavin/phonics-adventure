@@ -1,0 +1,39 @@
+{
+  "lessonId": "grade-3-dge-lesson-02",
+  "generatedAt": "2026-07-20",
+  "images": [
+    {
+      "word": "badge",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_kyFh7UGv5gE4lFgvIl96bDna.png",
+      "output": "/assets/images/grade3/advanced-consonants/badge.webp",
+      "promptSummary": "單一金色星星徽章與藍色緞帶，暖黃背景，柔和 3D 兒童教具風格。"
+    },
+    {
+      "word": "bridge",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_0C67jzBob53bLz5tvfE71Gh0.png",
+      "output": "/assets/images/grade3/advanced-consonants/bridge.webp",
+      "promptSummary": "單一紅磚玩具拱橋跨過藍色小河，暖黃背景，柔和 3D 兒童教具風格。"
+    },
+    {
+      "word": "fudge",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_om550GLYVBUb1Vo23FQI55bR.png",
+      "output": "/assets/images/grade3/advanced-consonants/fudge.webp",
+      "promptSummary": "單一方形巧克力軟糖，暖黃背景，乾淨的 3D 兒童食物教具風格。"
+    }
+  ],
+  "audio": {
+    "voice": "Microsoft Zira Desktop",
+    "format": "WAV PCM",
+    "rate": "-10%",
+    "phoneme": {
+      "ipa": "dʒ",
+      "output": "/assets/audio/grade3/advanced-consonants/dge-sound.wav"
+    },
+    "words": [
+      "/assets/audio/grade3/advanced-consonants/badge.wav",
+      "/assets/audio/grade3/advanced-consonants/bridge.wav",
+      "/assets/audio/grade3/advanced-consonants/fudge.wav"
+    ],
+    "reviewStatus": "needs-human-listening"
+  }
+}

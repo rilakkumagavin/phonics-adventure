@@ -1,0 +1,39 @@
+{
+  "lessonId": "grade-3-ph-lesson-03",
+  "generatedAt": "2026-07-20",
+  "images": [
+    {
+      "word": "phone",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_Gk1BVOgoPhrQZPIHWyYh7Vv2.png",
+      "output": "/assets/images/grade3/advanced-consonants/phone.webp",
+      "promptSummary": "單一藍色圓角玩具手機，螢幕只有彩色圓形，暖黃背景，無文字。"
+    },
+    {
+      "word": "graph",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_wKsXHPPqcYAbTAMIy4xtQiyQ.png",
+      "output": "/assets/images/grade3/advanced-consonants/graph.webp",
+      "promptSummary": "單一三柱彩色玩具長條圖模型，暖黃背景，無數字、座標與文字。"
+    },
+    {
+      "word": "photo",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_TSMgQ1yoDk278CiBWqyH1pXO.png",
+      "output": "/assets/images/grade3/advanced-consonants/photo.webp",
+      "promptSummary": "單一拍立得照片，內容是玩具風藍天綠地與太陽，暖黃背景，無文字。"
+    }
+  ],
+  "audio": {
+    "voice": "Microsoft Zira Desktop",
+    "format": "WAV PCM",
+    "rate": "-10%",
+    "phoneme": {
+      "ipa": "f",
+      "output": "/assets/audio/grade3/advanced-consonants/ph-sound.wav"
+    },
+    "words": [
+      "/assets/audio/grade3/advanced-consonants/phone.wav",
+      "/assets/audio/grade3/advanced-consonants/graph.wav",
+      "/assets/audio/grade3/advanced-consonants/photo.wav"
+    ],
+    "reviewStatus": "needs-human-listening"
+  }
+}

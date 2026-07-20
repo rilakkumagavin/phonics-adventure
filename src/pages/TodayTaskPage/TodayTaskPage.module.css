@@ -1,0 +1,115 @@
+.page {
+  display: grid;
+  gap: var(--space-5);
+}
+
+.primaryAction {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-primary);
+  color: white;
+  font-weight: 800;
+}
+
+.summary {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--space-3);
+}
+
+.taskList {
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  background: var(--color-surface);
+}
+
+.taskList h2 {
+  margin: 0 0 var(--space-3);
+}
+
+.taskList ol {
+  display: grid;
+  gap: var(--space-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.taskItem {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  gap: var(--space-3);
+  align-items: center;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+  background: var(--color-page);
+}
+
+.taskItem h3,
+.taskItem p {
+  margin: 0;
+}
+
+.taskItem p {
+  color: var(--color-muted);
+  font-weight: 700;
+}
+
+.taskMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-bottom: var(--space-2);
+}
+
+.taskKind,
+.completedStatus {
+  width: fit-content;
+  display: inline-flex;
+  border-radius: var(--radius-md);
+  padding: var(--space-1) var(--space-2);
+  font-weight: 900;
+}
+
+.taskKind {
+  background: var(--color-surface-strong);
+  color: var(--color-primary-strong);
+}
+
+.completedStatus {
+  background: color-mix(in srgb, var(--color-success) 18%, white);
+  color: var(--color-success);
+}
+
+.taskAction {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-md);
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-primary);
+  color: white;
+  font-weight: 800;
+}
+
+@media (max-width: 900px) {
+  .summary {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .summary {
+    grid-template-columns: 1fr;
+  }
+
+  .taskItem {
+    grid-template-columns: 1fr;
+  }
+}

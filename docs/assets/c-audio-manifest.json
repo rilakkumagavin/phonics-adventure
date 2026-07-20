@@ -1,0 +1,73 @@
+{
+  "courseId": "letter-c",
+  "generatedAt": "2026-07-03",
+  "source": {
+    "type": "system-tts",
+    "voice": "Microsoft Zira Desktop",
+    "culture": "en-US",
+    "rate": -1
+  },
+  "reviewStatus": "needs-human-listening",
+  "format": {
+    "container": "wav",
+    "codec": "PCM",
+    "sampleRateHz": 22050,
+    "sampleSizeBits": 16,
+    "channels": 1
+  },
+  "assets": [
+    {
+      "id": "c-letter-sound-audio",
+      "transcript": "/k/",
+      "relativePath": "assets/audio/courses/c/letter-sound.wav",
+      "status": "ready",
+      "source": {
+        "title": "Voiceless velar plosive.ogg",
+        "author": "Peter Isotalo",
+        "page": "https://commons.wikimedia.org/wiki/File:Voiceless_velar_plosive.ogg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e3/Voiceless_velar_plosive.ogg/Voiceless_velar_plosive.ogg.mp3",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "adapted": true,
+        "adaptation": "官方 MP3 轉為 22.05 kHz、16-bit、單聲道 PCM WAV；未剪輯或改變發音內容。"
+      },
+      "note": "Wikimedia Commons 標示為清軟顎塞音 /k/ 的發音；未使用字母名稱替代。"
+    },
+    {
+      "id": "c-cat-audio",
+      "transcript": "cat",
+      "relativePath": "assets/audio/courses/c/cat.wav",
+      "status": "generated"
+    },
+    {
+      "id": "c-cap-audio",
+      "transcript": "cap",
+      "relativePath": "assets/audio/courses/c/cap.wav",
+      "status": "generated"
+    },
+    {
+      "id": "c-cup-audio",
+      "transcript": "cup",
+      "relativePath": "assets/audio/courses/c/cup.wav",
+      "status": "generated"
+    },
+    {
+      "id": "c-sentence-cat-audio",
+      "transcript": "A cat.",
+      "relativePath": "assets/audio/courses/c/a-cat.wav",
+      "status": "generated"
+    },
+    {
+      "id": "c-sentence-cap-audio",
+      "transcript": "The cap is red.",
+      "relativePath": "assets/audio/courses/c/the-cap-is-red.wav",
+      "status": "generated"
+    },
+    {
+      "id": "c-sentence-cup-audio",
+      "transcript": "The cup is clean.",
+      "relativePath": "assets/audio/courses/c/the-cup-is-clean.wav",
+      "status": "generated"
+    }
+  ]
+}

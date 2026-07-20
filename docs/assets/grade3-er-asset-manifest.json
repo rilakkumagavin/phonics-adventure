@@ -1,0 +1,39 @@
+{
+  "lessonId": "grade-3-er-lesson-03",
+  "generatedAt": "2026-07-20",
+  "images": [
+    {
+      "word": "her",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_xF39pA0W4sDkG0Ze47XUX7n2.png",
+      "output": "/assets/images/grade3/r-controlled-vowels/her.webp",
+      "promptSummary": "單一女孩指向自己，暖黃背景，柔和 3D 兒童教具風格，無文字。"
+    },
+    {
+      "word": "fern",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_DJxe92QO0n47MpxdqHc17PJS.png",
+      "output": "/assets/images/grade3/r-controlled-vowels/fern.webp",
+      "promptSummary": "單一盆栽蕨類植物，羽狀綠葉與藍綠花盆，暖黃背景，柔和 3D 兒童教具風格。"
+    },
+    {
+      "word": "germ",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_U0tYEOhrx3WGKz8GxCIMhTZc.png",
+      "output": "/assets/images/grade3/r-controlled-vowels/germ.webp",
+      "promptSummary": "單一友善綠色細菌玩偶，暖黃背景，柔和 3D 兒童教具風格，無文字。"
+    }
+  ],
+  "audio": {
+    "voice": "Microsoft Zira Desktop",
+    "format": "WAV PCM",
+    "rate": "-10%",
+    "phoneme": {
+      "ipa": "ɝ",
+      "output": "/assets/audio/grade3/r-controlled-vowels/er-sound.wav"
+    },
+    "words": [
+      "/assets/audio/grade3/r-controlled-vowels/her.wav",
+      "/assets/audio/grade3/r-controlled-vowels/fern.wav",
+      "/assets/audio/grade3/r-controlled-vowels/germ.wav"
+    ],
+    "reviewStatus": "needs-human-listening"
+  }
+}

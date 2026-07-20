@@ -1,0 +1,39 @@
+{
+  "lessonId": "grade-3-tch-lesson-01",
+  "generatedAt": "2026-07-20",
+  "images": [
+    {
+      "word": "catch",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_kP213GGRD7wItmsUrvoXJiFS.png",
+      "output": "/assets/images/grade3/advanced-consonants/catch.webp",
+      "promptSummary": "單一孩子用雙手接住紅球，暖黃背景，柔和 3D 兒童教具風格。"
+    },
+    {
+      "word": "hatch",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_5pMbqvUm80Jm99WwfUwyRIMc.png",
+      "output": "/assets/images/grade3/advanced-consonants/hatch.webp",
+      "promptSummary": "單一黃色小雞從裂開蛋殼孵出，暖黃背景，柔和 3D 兒童教具風格。"
+    },
+    {
+      "word": "patch",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_VQbPeJeEi4nu19Pb4N5t77qD.png",
+      "output": "/assets/images/grade3/advanced-consonants/patch.webp",
+      "promptSummary": "單一藍色方形布補丁與黃色縫線，暖黃背景，乾淨的兒童教具風格。"
+    }
+  ],
+  "audio": {
+    "voice": "Microsoft Zira Desktop",
+    "format": "WAV PCM",
+    "rate": "-10%",
+    "phoneme": {
+      "ipa": "tʃ",
+      "output": "/assets/audio/grade3/advanced-consonants/tch-sound.wav"
+    },
+    "words": [
+      "/assets/audio/grade3/advanced-consonants/catch.wav",
+      "/assets/audio/grade3/advanced-consonants/hatch.wav",
+      "/assets/audio/grade3/advanced-consonants/patch.wav"
+    ],
+    "reviewStatus": "needs-human-listening"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "courseId": "letter-f",
+  "generatedAt": "2026-07-03",
+  "source": {
+    "type": "system-tts",
+    "voice": "Microsoft Zira Desktop",
+    "culture": "en-US",
+    "rate": -1
+  },
+  "reviewStatus": "needs-human-listening",
+  "format": {
+    "container": "wav",
+    "codec": "PCM",
+    "sampleRateHz": 22050,
+    "sampleSizeBits": 16,
+    "channels": 1
+  },
+  "assets": [
+    {
+      "id": "f-letter-sound-audio",
+      "transcript": "/f/",
+      "relativePath": "assets/audio/courses/f/letter-sound.wav",
+      "status": "ready",
+      "source": {
+        "title": "Voiceless labiodental fricative.ogg",
+        "author": "Peter Isotalo",
+        "page": "https://commons.wikimedia.org/wiki/File:Voiceless_labiodental_fricative.ogg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/33/Voiceless_labiodental_fricative.ogg/Voiceless_labiodental_fricative.ogg.mp3",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "adapted": true,
+        "adaptation": "官方 MP3 轉為 22.05 kHz、16-bit、單聲道 PCM WAV；未剪輯或改變發音內容。"
+      },
+      "note": "Wikimedia Commons 標示為清唇齒擦音 /f/ 的發音；未使用字母名稱替代。"
+    },
+    {
+      "id": "f-fish-audio",
+      "transcript": "fish",
+      "relativePath": "assets/audio/courses/f/fish.wav",
+      "status": "generated"
+    },
+    {
+      "id": "f-fan-audio",
+      "transcript": "fan",
+      "relativePath": "assets/audio/courses/f/fan.wav",
+      "status": "generated"
+    },
+    {
+      "id": "f-frog-audio",
+      "transcript": "frog",
+      "relativePath": "assets/audio/courses/f/frog.wav",
+      "status": "generated"
+    },
+    {
+      "id": "f-sentence-fish-audio",
+      "transcript": "A fish.",
+      "relativePath": "assets/audio/courses/f/a-fish.wav",
+      "status": "generated"
+    },
+    {
+      "id": "f-sentence-fan-audio",
+      "transcript": "The fan is fast.",
+      "relativePath": "assets/audio/courses/f/the-fan-is-fast.wav",
+      "status": "generated"
+    },
+    {
+      "id": "f-sentence-frog-audio",
+      "transcript": "The frog can jump.",
+      "relativePath": "assets/audio/courses/f/the-frog-can-jump.wav",
+      "status": "generated"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "lessonId": "grade-3-open-first-syllable-lesson-03",
+  "generatedAt": "2026-07-20",
+  "images": [
+    {
+      "word": "tiger",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_GUKXZVXfMG17XKA1dZS34lp7.png",
+      "output": "/assets/images/grade3/multisyllable/tiger.webp",
+      "promptSummary": "兒童友善 3D 圖卡，一隻站著微笑的橘色小老虎。"
+    },
+    {
+      "word": "robot",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_W06NwwcAHfybgQUgGTZ2ct6z.png",
+      "output": "/assets/images/grade3/multisyllable/robot.webp",
+      "promptSummary": "兒童友善 3D 圖卡，一個有銀色身體與藍色手腳的微笑玩具機器人。"
+    },
+    {
+      "word": "paper",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_H1c7hGdwIHdXYGfY1s4ei8Tq.png",
+      "output": "/assets/images/grade3/multisyllable/paper.webp",
+      "promptSummary": "兒童友善 3D 圖卡，一張有三條藍色橫線的白紙。"
+    }
+  ],
+  "audio": {
+    "voice": "Microsoft Zira Desktop",
+    "format": "WAV PCM",
+    "rate": "-10%",
+    "segments": {
+      "ti": "taɪ",
+      "ger": "ɡɚ",
+      "ro": "roʊ",
+      "bot": "bɑt",
+      "pa": "peɪ",
+      "per": "pɚ"
+    },
+    "words": ["tiger", "robot", "paper"],
+    "reviewStatus": "needs-human-listening"
+  }
+}

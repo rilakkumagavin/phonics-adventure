@@ -1,0 +1,73 @@
+{
+  "courseId": "letter-i",
+  "generatedAt": "2026-07-18",
+  "source": {
+    "type": "system-tts",
+    "voice": "Microsoft Zira Desktop",
+    "culture": "en-US",
+    "rate": -1
+  },
+  "reviewStatus": "needs-human-listening",
+  "format": {
+    "container": "wav",
+    "codec": "PCM",
+    "sampleRateHz": 22050,
+    "sampleSizeBits": 16,
+    "channels": 1
+  },
+  "assets": [
+    {
+      "id": "i-letter-sound-audio",
+      "transcript": "/ɪ/",
+      "relativePath": "assets/audio/courses/i/letter-sound.wav",
+      "status": "ready",
+      "source": {
+        "title": "Near-close near-front unrounded vowel.ogg",
+        "author": "Denelson83",
+        "page": "https://commons.wikimedia.org/wiki/File:Near-close_near-front_unrounded_vowel.ogg",
+        "download": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Near-close_near-front_unrounded_vowel.ogg",
+        "license": "GFDL self",
+        "licenseUrl": "https://www.gnu.org/licenses/fdl-1.3.html",
+        "adapted": true,
+        "adaptation": "原始 OGG 轉為 22.05 kHz、16-bit、單聲道 PCM WAV；未改變發音內容。"
+      },
+      "note": "Wikimedia Commons 標示為近閉近前不圓唇母音 /ɪ/；未使用字母名稱替代。"
+    },
+    {
+      "id": "i-igloo-audio",
+      "transcript": "igloo",
+      "relativePath": "assets/audio/courses/i/igloo.wav",
+      "status": "generated"
+    },
+    {
+      "id": "i-insect-audio",
+      "transcript": "insect",
+      "relativePath": "assets/audio/courses/i/insect.wav",
+      "status": "generated"
+    },
+    {
+      "id": "i-ink-audio",
+      "transcript": "ink",
+      "relativePath": "assets/audio/courses/i/ink.wav",
+      "status": "generated"
+    },
+    {
+      "id": "i-sentence-igloo-audio",
+      "transcript": "An igloo.",
+      "relativePath": "assets/audio/courses/i/an-igloo.wav",
+      "status": "generated"
+    },
+    {
+      "id": "i-sentence-insect-audio",
+      "transcript": "The insect is red.",
+      "relativePath": "assets/audio/courses/i/the-insect-is-red.wav",
+      "status": "generated"
+    },
+    {
+      "id": "i-sentence-ink-audio",
+      "transcript": "The ink is blue.",
+      "relativePath": "assets/audio/courses/i/the-ink-is-blue.wav",
+      "status": "generated"
+    }
+  ]
+}

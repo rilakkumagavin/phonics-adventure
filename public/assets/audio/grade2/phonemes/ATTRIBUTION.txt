@@ -1,0 +1,21 @@
+Phoneme audio sources
+
+sh.ogg
+Title: Voiceless palato-alveolar sibilant.ogg
+Author: Peter Isotalo
+Source: https://commons.wikimedia.org/wiki/File:Voiceless_palato-alveolar_sibilant.ogg
+License: CC BY-SA 3.0 and GFDL 1.2+
+
+ch.ogg
+Title: Voiceless palato-alveolar affricate.ogg
+Author: Peter Isotalo
+Source: https://commons.wikimedia.org/wiki/File:Voiceless_palato-alveolar_affricate.ogg
+License: CC BY-SA 3.0
+
+th.ogg
+Title: Voiceless dental fricative.ogg
+Author: Peter Isotalo
+Source: https://commons.wikimedia.org/wiki/File:Voiceless_dental_fricative.ogg
+License: CC BY-SA 3.0 and GFDL 1.2+
+
+The files are redistributed without modification.

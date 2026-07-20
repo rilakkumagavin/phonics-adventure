@@ -1,0 +1,73 @@
+{
+  "courseId": "letter-a",
+  "generatedAt": "2026-07-03",
+  "source": {
+    "type": "system-tts",
+    "voice": "Microsoft Zira Desktop",
+    "culture": "en-US",
+    "rate": -1
+  },
+  "reviewStatus": "needs-human-listening",
+  "format": {
+    "container": "wav",
+    "codec": "PCM",
+    "sampleRateHz": 22050,
+    "sampleSizeBits": 16,
+    "channels": 1
+  },
+  "assets": [
+    {
+      "id": "a-short-sound-audio",
+      "transcript": "/æ/",
+      "relativePath": "assets/audio/courses/a/letter-sound.wav",
+      "status": "ready",
+      "source": {
+        "title": "Near open front unrounded vowel.ogg",
+        "author": "XxXsuperprobablymanXxX",
+        "page": "https://commons.wikimedia.org/wiki/File:Near_open_front_unrounded_vowel.ogg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/Near_open_front_unrounded_vowel.ogg/Near_open_front_unrounded_vowel.ogg.mp3",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "adapted": true,
+        "adaptation": "官方 MP3 轉為 22.05 kHz、16-bit、單聲道 PCM WAV；另裁除開頭 1 秒空白，未改變發音內容。"
+      },
+      "note": "Wikimedia Commons 標示為近開前不圓唇母音 /æ/ 的發音；未使用字母名稱替代。"
+    },
+    {
+      "id": "a-apple-audio",
+      "transcript": "apple",
+      "relativePath": "assets/audio/courses/a/apple.wav",
+      "status": "generated"
+    },
+    {
+      "id": "a-ant-audio",
+      "transcript": "ant",
+      "relativePath": "assets/audio/courses/a/ant.wav",
+      "status": "generated"
+    },
+    {
+      "id": "a-alligator-audio",
+      "transcript": "alligator",
+      "relativePath": "assets/audio/courses/a/alligator.wav",
+      "status": "generated"
+    },
+    {
+      "id": "a-sentence-apple-audio",
+      "transcript": "An apple.",
+      "relativePath": "assets/audio/courses/a/an-apple.wav",
+      "status": "generated"
+    },
+    {
+      "id": "a-sentence-ant-audio",
+      "transcript": "I see an ant.",
+      "relativePath": "assets/audio/courses/a/i-see-an-ant.wav",
+      "status": "generated"
+    },
+    {
+      "id": "a-sentence-alligator-audio",
+      "transcript": "The alligator is big.",
+      "relativePath": "assets/audio/courses/a/the-alligator-is-big.wav",
+      "status": "generated"
+    }
+  ]
+}

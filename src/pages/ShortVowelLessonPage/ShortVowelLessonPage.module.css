@@ -1,0 +1,249 @@
+.page {
+  display: grid;
+  gap: var(--space-4);
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-4);
+}
+
+.header h2,
+.header p,
+.complete h2,
+.complete p {
+  margin: 0;
+}
+
+.header h2 {
+  margin: var(--space-1) 0;
+  font-size: 2rem;
+}
+
+.eyebrow {
+  color: var(--color-primary-strong);
+  font-weight: 900;
+}
+
+.secondaryAction,
+.primaryAction,
+.blendButton {
+  min-height: 52px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-5);
+  font-weight: 900;
+}
+
+.secondaryAction {
+  border: 2px solid var(--color-primary);
+  background: var(--color-surface);
+  color: var(--color-primary-strong);
+}
+
+.primaryAction,
+.blendButton {
+  background: var(--color-primary);
+  color: white;
+}
+
+.blendButton:disabled {
+  background: var(--color-border);
+  color: var(--color-muted);
+}
+
+.progressTrack {
+  height: 0.75rem;
+  overflow: hidden;
+  border-radius: 999px;
+  background: var(--color-border);
+}
+
+.progressTrack span {
+  height: 100%;
+  display: block;
+  border-radius: inherit;
+  background: var(--color-secondary);
+  transition: width 220ms ease;
+}
+
+.lesson {
+  display: grid;
+  gap: var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-5);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-soft);
+}
+
+.wordMeta {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-3);
+  color: var(--color-muted);
+  font-weight: 800;
+}
+
+.wordStage {
+  display: grid;
+  grid-template-columns: minmax(13rem, 20rem) minmax(0, 1fr);
+  align-items: center;
+  gap: var(--space-5);
+}
+
+.wordStage img {
+  width: 100%;
+  aspect-ratio: 1;
+  display: block;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  object-fit: cover;
+}
+
+.practice {
+  min-width: 0;
+}
+
+.segmentRow {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-3);
+}
+
+.segmentRow[data-segment-count='2'] {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.segmentRow[data-segment-count='4'] {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.segmentButton {
+  min-width: 0;
+  min-height: 7rem;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: var(--space-1);
+  border: 3px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+
+.segmentButton span {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.segmentButton small {
+  color: var(--color-muted);
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.segmentButton:not(:disabled) {
+  border-color: var(--color-primary);
+}
+
+.segmentCompleted {
+  border-color: var(--color-success);
+  background: var(--color-surface-strong);
+}
+
+.blendLine {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: var(--space-3);
+  margin: var(--space-4) 0;
+}
+
+.blendLine span {
+  height: 2px;
+  background: var(--color-border);
+}
+
+.blendLine strong {
+  font-size: 2rem;
+}
+
+.notice {
+  min-height: 3.5rem;
+  margin: 0;
+  border-left: 5px solid var(--color-secondary);
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-surface-strong);
+  font-weight: 800;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+
+.complete {
+  min-height: 65vh;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: var(--space-4);
+  text-align: center;
+}
+
+.complete h2 {
+  font-size: 2rem;
+}
+
+.completedWords {
+  color: var(--color-accent);
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+@media (max-width: 700px) {
+  .header {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .wordStage {
+    grid-template-columns: 1fr;
+  }
+
+  .wordStage img {
+    width: min(100%, 20rem);
+    margin: 0 auto;
+  }
+
+  .lesson {
+    padding: var(--space-4);
+  }
+
+  .segmentButton {
+    min-height: 6rem;
+  }
+
+  .segmentButton span {
+    font-size: 2.5rem;
+  }
+
+  .segmentRow[data-segment-count='4'] {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .actions > button,
+  .secondaryAction {
+    width: 100%;
+  }
+}

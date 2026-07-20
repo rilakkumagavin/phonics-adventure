@@ -1,0 +1,23 @@
+{
+  "unitId": "grade-3-reading-fluency",
+  "generatedAt": "2026-07-20",
+  "images": {
+    "strategy": "reuse-reviewed-grade-3-assets",
+    "paths": [
+      "/assets/images/grade3/vowel-teams/train.webp",
+      "/assets/images/grade3/multisyllable/rabbit.webp",
+      "/assets/images/grade3/multisyllable/seaside.webp",
+      "/assets/images/grade3/multisyllable/sunset.webp",
+      "/assets/images/grade3/multisyllable/rainbow.webp"
+    ]
+  },
+  "audio": {
+    "voice": "Microsoft Zira Desktop",
+    "format": "WAV PCM",
+    "rate": "-10%",
+    "wordCount": 24,
+    "sentenceCount": 5,
+    "outputRoot": "/assets/audio/grade3/reading-fluency",
+    "reviewStatus": "needs-human-listening"
+  }
+}

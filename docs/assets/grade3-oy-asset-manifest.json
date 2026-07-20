@@ -1,0 +1,39 @@
+{
+  "lessonId": "grade-3-oy-lesson-02",
+  "generatedAt": "2026-07-20",
+  "images": [
+    {
+      "word": "boy",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_j7vY6pFjnN70Z1GKNTsME5JR.png",
+      "output": "/assets/images/grade3/diphthongs/boy.webp",
+      "promptSummary": "單一男孩穿綠色上衣與藍色短褲，暖黃背景，柔和 3D 兒童教具風格。"
+    },
+    {
+      "word": "toy",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_dsoErTztWmRPMhfoZRONNzFE.png",
+      "output": "/assets/images/grade3/diphthongs/toy.webp",
+      "promptSummary": "單一紅藍色玩具機器人，暖黃背景，柔和 3D 兒童教具風格。"
+    },
+    {
+      "word": "joy",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_WGprd2cOYfZf5oaI3NnVjg5O.png",
+      "output": "/assets/images/grade3/diphthongs/joy.webp",
+      "promptSummary": "單一開心跳起並舉起雙手的孩子，暖黃背景，柔和 3D 兒童教具風格。"
+    }
+  ],
+  "audio": {
+    "voice": "Microsoft Zira Desktop",
+    "format": "WAV PCM",
+    "rate": "-10%",
+    "phoneme": {
+      "ipa": "ɔɪ",
+      "output": "/assets/audio/grade3/diphthongs/oy-sound.wav"
+    },
+    "words": [
+      "/assets/audio/grade3/diphthongs/boy.wav",
+      "/assets/audio/grade3/diphthongs/toy.wav",
+      "/assets/audio/grade3/diphthongs/joy.wav"
+    ],
+    "reviewStatus": "needs-human-listening"
+  }
+}

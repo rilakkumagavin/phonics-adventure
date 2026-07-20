@@ -1,0 +1,52 @@
+{
+  "lessonId": "grade-3-ai-ay-lesson-01",
+  "generatedAt": "2026-07-20",
+  "reviewStatus": "needs-human-listening",
+  "images": [
+    {
+      "word": "rain",
+      "relativePath": "assets/images/courses/r/r-rain-core.webp",
+      "source": "reused-ready-course-asset"
+    },
+    {
+      "word": "train",
+      "relativePath": "assets/images/grade3/vowel-teams/train.webp",
+      "source": "built-in-image-generation",
+      "promptSummary": "Friendly colorful toy train, centered soft 3D children's educational illustration on a warm pale yellow background."
+    },
+    {
+      "word": "play",
+      "relativePath": "assets/images/grade3/vowel-teams/play.webp",
+      "source": "built-in-image-generation",
+      "promptSummary": "Two elementary-age children happily playing ball, centered soft 3D children's educational illustration on a warm pale yellow background."
+    }
+  ],
+  "audio": {
+    "source": {
+      "type": "local-system-tts",
+      "voice": "Microsoft Zira Desktop",
+      "culture": "en-US",
+      "rate": -1
+    },
+    "assets": [
+      {
+        "word": "rain",
+        "relativePath": "assets/audio/grade3/vowel-teams/rain.wav",
+        "source": "reused-ready-course-asset"
+      },
+      {
+        "word": "train",
+        "relativePath": "assets/audio/grade3/vowel-teams/train.wav"
+      },
+      {
+        "word": "play",
+        "relativePath": "assets/audio/grade3/vowel-teams/play.wav"
+      }
+    ]
+  },
+  "phonemeAudio": {
+    "soundLabel": "/eɪ/",
+    "relativePath": "assets/audio/grade2/phonemes/long-a.wav",
+    "source": "reused-technically-validated-phoneme"
+  }
+}

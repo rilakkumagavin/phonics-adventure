@@ -1,0 +1,71 @@
+{
+  "curriculumId": "grade-3-phonics",
+  "unitId": "grade-3-r-controlled-vowels",
+  "lessonId": "grade-3-ar-lesson-01",
+  "generatedAt": "2026-07-20",
+  "reviewStatus": "needs-human-listening",
+  "images": {
+    "source": "OpenAI built-in image generation",
+    "style": "soft 3D children's toy illustration on a warm pale-yellow background",
+    "format": {
+      "container": "webp",
+      "width": 768,
+      "height": 768
+    },
+    "assets": [
+      {
+        "word": "car",
+        "relativePath": "assets/images/grade3/r-controlled-vowels/car.webp",
+        "sourcePath": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_QX5aFrBZxxKjebHToWVbbP0Z.png",
+        "promptSummary": "single bright red toy car, three-quarter view, warm pale-yellow studio background"
+      },
+      {
+        "word": "star",
+        "relativePath": "assets/images/grade3/r-controlled-vowels/star.webp",
+        "sourcePath": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_A9ccyPHIpe0PuES94oY51T09.png",
+        "promptSummary": "single golden-yellow five-point toy star, warm pale-yellow studio background"
+      },
+      {
+        "word": "farm",
+        "relativePath": "assets/images/grade3/r-controlled-vowels/farm.webp",
+        "sourcePath": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_llYQsY1kfIjaVfdXbWcE0r2q.png",
+        "promptSummary": "toy farm with red barn, silo, fence and hay, warm pale-yellow studio background"
+      }
+    ]
+  },
+  "audio": {
+    "source": {
+      "type": "local-system-tts",
+      "voice": "Microsoft Zira Desktop",
+      "culture": "en-US",
+      "method": "System.Speech SSML; ar uses an explicit IPA phoneme",
+      "rate": "-10%"
+    },
+    "format": {
+      "container": "wav",
+      "codec": "PCM",
+      "sampleRateHz": 22050,
+      "sampleSizeBits": 16,
+      "channels": 1
+    },
+    "assets": [
+      {
+        "soundLabel": "/ɑr/",
+        "synthesisPhoneme": "ɑɹ",
+        "relativePath": "assets/audio/grade3/r-controlled-vowels/ar-sound.wav"
+      },
+      {
+        "word": "car",
+        "relativePath": "assets/audio/grade3/r-controlled-vowels/car.wav"
+      },
+      {
+        "word": "star",
+        "relativePath": "assets/audio/grade3/r-controlled-vowels/star.wav"
+      },
+      {
+        "word": "farm",
+        "relativePath": "assets/audio/grade3/r-controlled-vowels/farm.wav"
+      }
+    ]
+  }
+}

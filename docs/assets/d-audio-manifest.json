@@ -1,0 +1,73 @@
+{
+  "courseId": "letter-d",
+  "generatedAt": "2026-07-03",
+  "source": {
+    "type": "system-tts",
+    "voice": "Microsoft Zira Desktop",
+    "culture": "en-US",
+    "rate": -1
+  },
+  "reviewStatus": "needs-human-listening",
+  "format": {
+    "container": "wav",
+    "codec": "PCM",
+    "sampleRateHz": 22050,
+    "sampleSizeBits": 16,
+    "channels": 1
+  },
+  "assets": [
+    {
+      "id": "d-letter-sound-audio",
+      "transcript": "/d/",
+      "relativePath": "assets/audio/courses/d/letter-sound.wav",
+      "status": "ready",
+      "source": {
+        "title": "Voiced alveolar plosive.ogg",
+        "author": "Peter Isotalo",
+        "page": "https://commons.wikimedia.org/wiki/File:Voiced_alveolar_plosive.ogg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/01/Voiced_alveolar_plosive.ogg/Voiced_alveolar_plosive.ogg.mp3",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "adapted": true,
+        "adaptation": "官方 MP3 轉為 22.05 kHz、16-bit、單聲道 PCM WAV；未剪輯或改變發音內容。"
+      },
+      "note": "Wikimedia Commons 標示為濁齒齦塞音 /d/ 的發音；未使用字母名稱替代。"
+    },
+    {
+      "id": "d-dog-audio",
+      "transcript": "dog",
+      "relativePath": "assets/audio/courses/d/dog.wav",
+      "status": "generated"
+    },
+    {
+      "id": "d-duck-audio",
+      "transcript": "duck",
+      "relativePath": "assets/audio/courses/d/duck.wav",
+      "status": "generated"
+    },
+    {
+      "id": "d-drum-audio",
+      "transcript": "drum",
+      "relativePath": "assets/audio/courses/d/drum.wav",
+      "status": "generated"
+    },
+    {
+      "id": "d-sentence-dog-audio",
+      "transcript": "A dog.",
+      "relativePath": "assets/audio/courses/d/a-dog.wav",
+      "status": "generated"
+    },
+    {
+      "id": "d-sentence-duck-audio",
+      "transcript": "The duck is yellow.",
+      "relativePath": "assets/audio/courses/d/the-duck-is-yellow.wav",
+      "status": "generated"
+    },
+    {
+      "id": "d-sentence-drum-audio",
+      "transcript": "The drum is big.",
+      "relativePath": "assets/audio/courses/d/the-drum-is-big.wav",
+      "status": "generated"
+    }
+  ]
+}

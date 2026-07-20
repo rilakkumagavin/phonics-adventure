@@ -1,0 +1,39 @@
+{
+  "lessonId": "grade-3-ng-lesson-04",
+  "generatedAt": "2026-07-20",
+  "images": [
+    {
+      "word": "ring",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_TNExIbzdTnyZpzpNkfvK40Vn.png",
+      "output": "/assets/images/grade3/advanced-consonants/ring.webp",
+      "promptSummary": "兒童友善 3D 圖卡，一只鑲藍色寶石的金色戒指，暖黃色背景。"
+    },
+    {
+      "word": "king",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_v1MZdypxlMaTMzUPKYBu6sKP.png",
+      "output": "/assets/images/grade3/advanced-consonants/king.webp",
+      "promptSummary": "兒童友善 3D 圖卡，一位戴皇冠、微笑揮手的小國王，暖黃色背景。"
+    },
+    {
+      "word": "wing",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_4iXXY0cUSXuLh6IgsGcUXYbn.png",
+      "output": "/assets/images/grade3/advanced-consonants/wing.webp",
+      "promptSummary": "兒童友善 3D 圖卡，一片展開且羽毛層次清楚的藍色鳥翅膀，暖黃色背景。"
+    }
+  ],
+  "audio": {
+    "voice": "Microsoft Zira Desktop",
+    "format": "WAV PCM",
+    "rate": "-10%",
+    "phoneme": {
+      "ipa": "ŋ",
+      "output": "/assets/audio/grade3/advanced-consonants/ng-sound.wav"
+    },
+    "words": [
+      "/assets/audio/grade3/advanced-consonants/ring.wav",
+      "/assets/audio/grade3/advanced-consonants/king.wav",
+      "/assets/audio/grade3/advanced-consonants/wing.wav"
+    ],
+    "reviewStatus": "needs-human-listening"
+  }
+}

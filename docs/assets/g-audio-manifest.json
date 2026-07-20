@@ -1,0 +1,73 @@
+{
+  "courseId": "letter-g",
+  "generatedAt": "2026-07-18",
+  "source": {
+    "type": "system-tts",
+    "voice": "Microsoft Zira Desktop",
+    "culture": "en-US",
+    "rate": -1
+  },
+  "reviewStatus": "needs-human-listening",
+  "format": {
+    "container": "wav",
+    "codec": "PCM",
+    "sampleRateHz": 22050,
+    "sampleSizeBits": 16,
+    "channels": 1
+  },
+  "assets": [
+    {
+      "id": "g-letter-sound-audio",
+      "transcript": "/g/",
+      "relativePath": "assets/audio/courses/g/letter-sound.wav",
+      "status": "ready",
+      "source": {
+        "title": "Voiced velar plosive (repronunciation).ogg",
+        "author": "Denelson83",
+        "page": "https://commons.wikimedia.org/wiki/File:Voiced_velar_plosive_(repronunciation).ogg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/0/01/Voiced_velar_plosive_%28repronunciation%29.ogg",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "adapted": true,
+        "adaptation": "原始 OGG 轉為 22.05 kHz、16-bit、單聲道 PCM WAV；未改變發音內容。"
+      },
+      "note": "Wikimedia Commons 標示為濁軟顎塞音 /g/ 的發音；未使用字母名稱替代。"
+    },
+    {
+      "id": "g-goat-audio",
+      "transcript": "goat",
+      "relativePath": "assets/audio/courses/g/goat.wav",
+      "status": "generated"
+    },
+    {
+      "id": "g-gift-audio",
+      "transcript": "gift",
+      "relativePath": "assets/audio/courses/g/gift.wav",
+      "status": "generated"
+    },
+    {
+      "id": "g-gorilla-audio",
+      "transcript": "gorilla",
+      "relativePath": "assets/audio/courses/g/gorilla.wav",
+      "status": "generated"
+    },
+    {
+      "id": "g-sentence-goat-audio",
+      "transcript": "A goat.",
+      "relativePath": "assets/audio/courses/g/a-goat.wav",
+      "status": "generated"
+    },
+    {
+      "id": "g-sentence-gift-audio",
+      "transcript": "The gift is red.",
+      "relativePath": "assets/audio/courses/g/the-gift-is-red.wav",
+      "status": "generated"
+    },
+    {
+      "id": "g-sentence-gorilla-audio",
+      "transcript": "The gorilla is big.",
+      "relativePath": "assets/audio/courses/g/the-gorilla-is-big.wav",
+      "status": "generated"
+    }
+  ]
+}

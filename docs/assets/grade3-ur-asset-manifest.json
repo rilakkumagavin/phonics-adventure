@@ -1,0 +1,39 @@
+{
+  "lessonId": "grade-3-ur-lesson-05",
+  "generatedAt": "2026-07-20",
+  "images": [
+    {
+      "word": "fur",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_gzDciVNtH3eFaakVPJkCHvG2.png",
+      "output": "/assets/images/grade3/r-controlled-vowels/fur.webp",
+      "promptSummary": "單一柔軟棕色毛皮樣本，暖黃背景，乾淨的兒童教具風格。"
+    },
+    {
+      "word": "turn",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_CwtrBKz82XEhWj6r7JUABVpT.png",
+      "output": "/assets/images/grade3/r-controlled-vowels/turn.webp",
+      "promptSummary": "單一紅色玩具車沿藍色彎道轉彎，暖黃背景，柔和 3D 兒童教具風格。"
+    },
+    {
+      "word": "nurse",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_RADsrljM5rVhSaC30uHfZgRN.png",
+      "output": "/assets/images/grade3/r-controlled-vowels/nurse.webp",
+      "promptSummary": "單一護理師穿藍綠色醫療服與聽診器，暖黃背景，柔和 3D 兒童教具風格。"
+    }
+  ],
+  "audio": {
+    "voice": "Microsoft Zira Desktop",
+    "format": "WAV PCM",
+    "rate": "-10%",
+    "phoneme": {
+      "ipa": "ɝ",
+      "output": "/assets/audio/grade3/r-controlled-vowels/ur-sound.wav"
+    },
+    "words": [
+      "/assets/audio/grade3/r-controlled-vowels/fur.wav",
+      "/assets/audio/grade3/r-controlled-vowels/turn.wav",
+      "/assets/audio/grade3/r-controlled-vowels/nurse.wav"
+    ],
+    "reviewStatus": "needs-human-listening"
+  }
+}

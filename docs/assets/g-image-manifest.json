@@ -1,0 +1,44 @@
+[
+  {
+    "id": "g-goat-core",
+    "filename": "g-goat-core.webp",
+    "relativePath": "assets/images/courses/g/g-goat-core.webp",
+    "category": "core-word",
+    "courseId": "letter-g",
+    "wordId": "g-goat",
+    "sentenceId": null,
+    "aspectRatio": "1:1",
+    "sourceSize": "1024x1024",
+    "altZhTW": "一隻友善的白色小山羊站在簡單背景前",
+    "status": "approved",
+    "promptKey": "g-goat-core"
+  },
+  {
+    "id": "g-gift-core",
+    "filename": "g-gift-core.webp",
+    "relativePath": "assets/images/courses/g/g-gift-core.webp",
+    "category": "core-word",
+    "courseId": "letter-g",
+    "wordId": "g-gift",
+    "sentenceId": null,
+    "aspectRatio": "1:1",
+    "sourceSize": "1024x1024",
+    "altZhTW": "一個綁著紅色蝴蝶結的藍綠色禮物盒",
+    "status": "approved",
+    "promptKey": "g-gift-core"
+  },
+  {
+    "id": "g-gorilla-core",
+    "filename": "g-gorilla-core.webp",
+    "relativePath": "assets/images/courses/g/g-gorilla-core.webp",
+    "category": "core-word",
+    "courseId": "letter-g",
+    "wordId": "g-gorilla",
+    "sentenceId": null,
+    "aspectRatio": "1:1",
+    "sourceSize": "1024x1024",
+    "altZhTW": "一隻表情友善的幼年大猩猩坐在簡單背景前",
+    "status": "approved",
+    "promptKey": "g-gorilla-core"
+  }
+]

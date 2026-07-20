@@ -1,0 +1,39 @@
+{
+  "lessonId": "grade-3-oi-lesson-01",
+  "generatedAt": "2026-07-20",
+  "images": [
+    {
+      "word": "coin",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_74aJAQem3wvpiHOfcbfcaP4F.png",
+      "output": "/assets/images/grade3/diphthongs/coin.webp",
+      "promptSummary": "單一金色星星玩具硬幣，暖黃背景，柔和 3D 兒童教具風格，無文字與數字。"
+    },
+    {
+      "word": "soil",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_40HlAVk2kjBXxQrEHI8Aqmm6.png",
+      "output": "/assets/images/grade3/diphthongs/soil.webp",
+      "promptSummary": "單一小堆棕色鬆軟土壤，暖黃背景，乾淨的兒童教具風格。"
+    },
+    {
+      "word": "boil",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_ANVWOQOeyti2PZvhEOWzfQXD.png",
+      "output": "/assets/images/grade3/diphthongs/boil.webp",
+      "promptSummary": "單一藍綠色鍋子裝著冒泡熱水與蒸氣，暖黃背景，柔和 3D 兒童教具風格。"
+    }
+  ],
+  "audio": {
+    "voice": "Microsoft Zira Desktop",
+    "format": "WAV PCM",
+    "rate": "-10%",
+    "phoneme": {
+      "ipa": "ɔɪ",
+      "output": "/assets/audio/grade3/diphthongs/oi-sound.wav"
+    },
+    "words": [
+      "/assets/audio/grade3/diphthongs/coin.wav",
+      "/assets/audio/grade3/diphthongs/soil.wav",
+      "/assets/audio/grade3/diphthongs/boil.wav"
+    ],
+    "reviewStatus": "needs-human-listening"
+  }
+}

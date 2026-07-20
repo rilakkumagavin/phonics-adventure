@@ -1,0 +1,15 @@
+.shell {
+  width: min(100%, var(--page-max));
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.main {
+  padding: 0 var(--space-4) var(--space-6);
+}
+
+.footer {
+  padding: var(--space-4);
+  color: var(--color-muted);
+  text-align: center;
+}

@@ -1,0 +1,73 @@
+{
+  "courseId": "letter-b",
+  "generatedAt": "2026-07-03",
+  "source": {
+    "type": "system-tts",
+    "voice": "Microsoft Zira Desktop",
+    "culture": "en-US",
+    "rate": -1
+  },
+  "reviewStatus": "needs-human-listening",
+  "format": {
+    "container": "wav",
+    "codec": "PCM",
+    "sampleRateHz": 22050,
+    "sampleSizeBits": 16,
+    "channels": 1
+  },
+  "assets": [
+    {
+      "id": "b-letter-sound-audio",
+      "transcript": "/b/",
+      "relativePath": "assets/audio/courses/b/letter-sound.wav",
+      "status": "ready",
+      "source": {
+        "title": "Voiced bilabial plosive.ogg",
+        "author": "Peter Isotalo",
+        "page": "https://commons.wikimedia.org/wiki/File:Voiced_bilabial_plosive.ogg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2c/Voiced_bilabial_plosive.ogg/Voiced_bilabial_plosive.ogg.mp3",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "adapted": true,
+        "adaptation": "官方 MP3 轉為 22.05 kHz、16-bit、單聲道 PCM WAV；未剪輯或改變發音內容。"
+      },
+      "note": "Wikimedia Commons 標示為濁雙唇塞音 /b/ 的發音；未使用字母名稱或 a ball. 句子替代。"
+    },
+    {
+      "id": "b-ball-audio",
+      "transcript": "ball",
+      "relativePath": "assets/audio/courses/b/ball.wav",
+      "status": "generated"
+    },
+    {
+      "id": "b-bat-audio",
+      "transcript": "bat",
+      "relativePath": "assets/audio/courses/b/bat.wav",
+      "status": "generated"
+    },
+    {
+      "id": "b-bus-audio",
+      "transcript": "bus",
+      "relativePath": "assets/audio/courses/b/bus.wav",
+      "status": "generated"
+    },
+    {
+      "id": "b-sentence-ball-audio",
+      "transcript": "a ball.",
+      "relativePath": "assets/audio/courses/b/a-ball.wav",
+      "status": "generated"
+    },
+    {
+      "id": "b-sentence-bat-audio",
+      "transcript": "The bat is big.",
+      "relativePath": "assets/audio/courses/b/the-bat-is-big.wav",
+      "status": "generated"
+    },
+    {
+      "id": "b-sentence-bus-audio",
+      "transcript": "The bus is blue.",
+      "relativePath": "assets/audio/courses/b/the-bus-is-blue.wav",
+      "status": "generated"
+    }
+  ]
+}

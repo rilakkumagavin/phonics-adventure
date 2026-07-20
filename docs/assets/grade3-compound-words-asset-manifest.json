@@ -1,0 +1,32 @@
+{
+  "lessonId": "grade-3-compound-words-lesson-01",
+  "generatedAt": "2026-07-20",
+  "images": [
+    {
+      "word": "sunset",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_iSj8ROZyb3zyfPkhSqbDNf1V.png",
+      "output": "/assets/images/grade3/multisyllable/sunset.webp",
+      "promptSummary": "兒童友善 3D 圖卡，橘色太陽落到綠色山丘後方。"
+    },
+    {
+      "word": "cupcake",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_I4se4fnRha6Qt0tDAjeSCXSj.png",
+      "output": "/assets/images/grade3/multisyllable/cupcake.webp",
+      "promptSummary": "兒童友善 3D 圖卡，藍色紙杯、粉紅糖霜與紅櫻桃的杯子蛋糕。"
+    },
+    {
+      "word": "raincoat",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_JTKSuBCAhxgJYMAKYIUHmZTE.png",
+      "output": "/assets/images/grade3/multisyllable/raincoat.webp",
+      "promptSummary": "兒童友善 3D 圖卡，有帽子與藍色鈕扣的黃色兒童雨衣。"
+    }
+  ],
+  "audio": {
+    "voice": "Microsoft Zira Desktop",
+    "format": "WAV PCM",
+    "rate": "-10%",
+    "segments": ["sun", "set", "cup", "cake", "rain", "coat"],
+    "words": ["sunset", "cupcake", "raincoat"],
+    "reviewStatus": "needs-human-listening"
+  }
+}

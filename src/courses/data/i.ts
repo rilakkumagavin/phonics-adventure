@@ -1,0 +1,65 @@
+import { createFocusedLetterCourse } from '../createFocusedLetterCourse';
+
+export const letterICourse = createFocusedLetterCourse({
+  letter: 'I',
+  phoneticHint: '/ɪ/',
+  soundLabel: 'I 的短短聲音',
+  title: 'I 的短短聲音',
+  description: 'I 在 igloo、insect、ink 開頭發出短短的 /ɪ/ 聲。',
+  studentHint: '嘴巴微微打開，舌頭放鬆，快速發出短短的聲音。',
+  teacherNote: '本課只教短母音 /ɪ/，不加入 ice 等長母音單字。',
+  mouthPosition: '嘴角自然放鬆，舌頭前方微微抬高。',
+  airflowHint: '聲音要短，不要拉長，也不要滑向字母名稱 I。',
+  commonMistakes: [
+    '不要念成字母名稱 I。',
+    '不要把短音拉長。',
+    'insect 有兩個音節，先注意第一個音節。',
+  ],
+  stage: 'Phase 4I',
+  words: [
+    {
+      word: 'igloo',
+      meaningZhTW: '冰屋',
+      imageAlt: '一座由白色冰磚堆成的小冰屋',
+      actionHint: '雙手在頭頂比出圓圓屋頂，再慢慢念 igloo。',
+      sceneHint: '單一冰屋完整入鏡，圓頂與入口輪廓清楚。',
+      tags: ['place', 'two-syllables'],
+      difficulty: 2,
+      sentence: {
+        text: 'An igloo.',
+        audioFilename: 'an-igloo.wav',
+        teachingHintZhTW: '先聽 igloo 開頭的短 I 聲，再讀完整短句。',
+        imageAlt: '一座白色冰屋的句子圖片',
+      },
+    },
+    {
+      word: 'insect',
+      meaningZhTW: '昆蟲',
+      imageAlt: '一隻表情友善的紅色瓢蟲',
+      actionHint: '用手指比出小小觸角，再慢慢念 insect。',
+      sceneHint: '單一友善瓢蟲置中，觸角與腳清楚。',
+      tags: ['animal', 'two-syllables'],
+      difficulty: 2,
+      sentence: {
+        text: 'The insect is red.',
+        audioFilename: 'the-insect-is-red.wav',
+        teachingHintZhTW: '看見紅色昆蟲，跟著讀 insect。',
+        imageAlt: '一隻紅色瓢蟲的句子圖片',
+      },
+    },
+    {
+      word: 'ink',
+      meaningZhTW: '墨水',
+      imageAlt: '一瓶裝著鮮藍色墨水的透明玻璃瓶',
+      actionHint: '用手做出小瓶子的形狀，再念 ink。',
+      sceneHint: '單一墨水瓶置中，瓶身完整，不出現文字標籤。',
+      tags: ['object', 'easy-to-recognize'],
+      sentence: {
+        text: 'The ink is blue.',
+        audioFilename: 'the-ink-is-blue.wav',
+        teachingHintZhTW: '看見藍色墨水，跟著讀 ink。',
+        imageAlt: '一瓶藍色墨水的句子圖片',
+      },
+    },
+  ],
+});

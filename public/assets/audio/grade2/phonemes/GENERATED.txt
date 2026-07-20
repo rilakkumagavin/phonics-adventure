@@ -1,0 +1,17 @@
+Grade 2 instructional phoneme WAV files
+
+- Voice: Microsoft Zira Desktop, en-US
+- Method: local System.Speech SSML with explicit IPA phonemes
+- Rate: 10% slower than the default voice
+- Generated: 2026-07-19
+- Network or external speech service: not used
+- Review status: automated checks passed; human listening is still required
+
+Teaching style:
+- Short and long vowels use their explicit IPA value.
+- Stop sounds use a short instructional release so children can hear them.
+- Fricatives, nasals, and other continuant sounds avoid an extra vowel.
+- Identical sounds share one file even when their graphemes differ.
+
+The complete sound-to-file mapping is recorded in:
+docs/assets/grade2-phoneme-manifest.json

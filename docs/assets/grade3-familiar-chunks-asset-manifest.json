@@ -1,0 +1,39 @@
+{
+  "lessonId": "grade-3-familiar-chunks-lesson-04",
+  "generatedAt": "2026-07-20",
+  "images": [
+    {
+      "word": "rainbow",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_Xey0jq9FCmdt8g18XIGkXhXp.png",
+      "output": "/assets/images/grade3/multisyllable/rainbow.webp",
+      "promptSummary": "兒童友善 3D 圖卡，一道在藍天與白雲間展開的彩虹。"
+    },
+    {
+      "word": "seaside",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_5OsBBHcAL3WMIx0a411hDNUk.png",
+      "output": "/assets/images/grade3/multisyllable/seaside.webp",
+      "promptSummary": "兒童友善 3D 圖卡，有海浪、貝殼與紅色水桶的晴朗海邊。"
+    },
+    {
+      "word": "daylight",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_fSFaQR2HhjbOe8WgQ6DzCj9p.png",
+      "output": "/assets/images/grade3/multisyllable/daylight.webp",
+      "promptSummary": "兒童友善 3D 圖卡，晴朗藍天下照亮綠色草地的明亮太陽。"
+    }
+  ],
+  "audio": {
+    "voice": "Microsoft Zira Desktop",
+    "format": "WAV PCM",
+    "rate": "-10%",
+    "segments": {
+      "rain": "reɪn",
+      "bow": "boʊ",
+      "sea": "siː",
+      "side": "saɪd",
+      "day": "deɪ",
+      "light": "laɪt"
+    },
+    "words": ["rainbow", "seaside", "daylight"],
+    "reviewStatus": "needs-human-listening"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "lessonId": "grade-3-closed-syllables-lesson-02",
+  "generatedAt": "2026-07-20",
+  "images": [
+    {
+      "word": "rabbit",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_wdUT0SwTsVIKSMMFrffAHJX4.png",
+      "output": "/assets/images/grade3/multisyllable/rabbit.webp",
+      "promptSummary": "兒童友善 3D 圖卡，一隻坐著微笑的白色兔子。"
+    },
+    {
+      "word": "picnic",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_4VpNHyZ2ZWdkdR8VrfNV9XY0.png",
+      "output": "/assets/images/grade3/multisyllable/picnic.webp",
+      "promptSummary": "兒童友善 3D 圖卡，草地上的野餐籃、蘋果、三明治與紅白格子布。"
+    },
+    {
+      "word": "magnet",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_DYsOPbPzf7J7ZKQTJGuMaczL.png",
+      "output": "/assets/images/grade3/multisyllable/magnet.webp",
+      "promptSummary": "兒童友善 3D 圖卡，一個紅藍兩色的 U 形磁鐵。"
+    }
+  ],
+  "audio": {
+    "voice": "Microsoft Zira Desktop",
+    "format": "WAV PCM",
+    "rate": "-10%",
+    "segments": {
+      "rab": "ræb",
+      "bit": "bɪt",
+      "pic": "pɪk",
+      "nic": "nɪk",
+      "mag": "mæɡ",
+      "net": "nɛt"
+    },
+    "words": ["rabbit", "picnic", "magnet"],
+    "reviewStatus": "needs-human-listening"
+  }
+}

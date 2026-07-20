@@ -1,0 +1,44 @@
+[
+  {
+    "id": "i-igloo-core",
+    "filename": "i-igloo-core.webp",
+    "relativePath": "assets/images/courses/i/i-igloo-core.webp",
+    "category": "core-word",
+    "courseId": "letter-i",
+    "wordId": "i-igloo",
+    "sentenceId": null,
+    "aspectRatio": "1:1",
+    "sourceSize": "1024x1024",
+    "altZhTW": "一座由白色冰磚堆成的小冰屋",
+    "status": "approved",
+    "promptKey": "i-igloo-core"
+  },
+  {
+    "id": "i-insect-core",
+    "filename": "i-insect-core.webp",
+    "relativePath": "assets/images/courses/i/i-insect-core.webp",
+    "category": "core-word",
+    "courseId": "letter-i",
+    "wordId": "i-insect",
+    "sentenceId": null,
+    "aspectRatio": "1:1",
+    "sourceSize": "1024x1024",
+    "altZhTW": "一隻表情友善的紅色瓢蟲",
+    "status": "approved",
+    "promptKey": "i-insect-core"
+  },
+  {
+    "id": "i-ink-core",
+    "filename": "i-ink-core.webp",
+    "relativePath": "assets/images/courses/i/i-ink-core.webp",
+    "category": "core-word",
+    "courseId": "letter-i",
+    "wordId": "i-ink",
+    "sentenceId": null,
+    "aspectRatio": "1:1",
+    "sourceSize": "1024x1024",
+    "altZhTW": "一瓶裝著鮮藍色墨水的透明玻璃瓶",
+    "status": "approved",
+    "promptKey": "i-ink-core"
+  }
+]

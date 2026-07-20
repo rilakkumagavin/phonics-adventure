@@ -1,0 +1,73 @@
+{
+  "courseId": "letter-h",
+  "generatedAt": "2026-07-18",
+  "source": {
+    "type": "system-tts",
+    "voice": "Microsoft Zira Desktop",
+    "culture": "en-US",
+    "rate": -1
+  },
+  "reviewStatus": "needs-human-listening",
+  "format": {
+    "container": "wav",
+    "codec": "PCM",
+    "sampleRateHz": 22050,
+    "sampleSizeBits": 16,
+    "channels": 1
+  },
+  "assets": [
+    {
+      "id": "h-letter-sound-audio",
+      "transcript": "/h/",
+      "relativePath": "assets/audio/courses/h/letter-sound.wav",
+      "status": "ready",
+      "source": {
+        "title": "Voiceless glottal fricative.ogg",
+        "author": "Peter Isotalo",
+        "page": "https://commons.wikimedia.org/wiki/File:Voiceless_glottal_fricative.ogg",
+        "download": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Voiceless_glottal_fricative.ogg",
+        "license": "GFDL 1.2 or later / CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "adapted": true,
+        "adaptation": "原始 OGG 轉為 22.05 kHz、16-bit、單聲道 PCM WAV；未改變發音內容。"
+      },
+      "note": "Wikimedia Commons 標示為清聲門擦音 /h/ 的發音；未使用字母名稱替代。"
+    },
+    {
+      "id": "h-hat-audio",
+      "transcript": "hat",
+      "relativePath": "assets/audio/courses/h/hat.wav",
+      "status": "generated"
+    },
+    {
+      "id": "h-hen-audio",
+      "transcript": "hen",
+      "relativePath": "assets/audio/courses/h/hen.wav",
+      "status": "generated"
+    },
+    {
+      "id": "h-hippo-audio",
+      "transcript": "hippo",
+      "relativePath": "assets/audio/courses/h/hippo.wav",
+      "status": "generated"
+    },
+    {
+      "id": "h-sentence-hat-audio",
+      "transcript": "A hat.",
+      "relativePath": "assets/audio/courses/h/a-hat.wav",
+      "status": "generated"
+    },
+    {
+      "id": "h-sentence-hen-audio",
+      "transcript": "The hen is red.",
+      "relativePath": "assets/audio/courses/h/the-hen-is-red.wav",
+      "status": "generated"
+    },
+    {
+      "id": "h-sentence-hippo-audio",
+      "transcript": "The hippo is big.",
+      "relativePath": "assets/audio/courses/h/the-hippo-is-big.wav",
+      "status": "generated"
+    }
+  ]
+}

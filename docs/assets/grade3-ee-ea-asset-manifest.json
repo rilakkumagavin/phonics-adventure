@@ -1,0 +1,52 @@
+{
+  "lessonId": "grade-3-ee-ea-lesson-02",
+  "generatedAt": "2026-07-20",
+  "reviewStatus": "needs-human-listening",
+  "images": [
+    {
+      "word": "seed",
+      "relativePath": "assets/images/grade3/vowel-teams/seed.webp",
+      "source": "built-in-image-generation",
+      "promptSummary": "A single seed beginning to sprout, centered soft 3D children's educational illustration on a warm pale yellow background."
+    },
+    {
+      "word": "leaf",
+      "relativePath": "assets/images/courses/l/l-leaf-core.webp",
+      "source": "reused-ready-course-asset"
+    },
+    {
+      "word": "beach",
+      "relativePath": "assets/images/grade3/vowel-teams/beach.webp",
+      "source": "built-in-image-generation",
+      "promptSummary": "A bright beach with umbrella and beach ball, soft 3D children's educational illustration."
+    }
+  ],
+  "audio": {
+    "source": {
+      "type": "local-system-tts",
+      "voice": "Microsoft Zira Desktop",
+      "culture": "en-US",
+      "rate": -1
+    },
+    "assets": [
+      {
+        "word": "seed",
+        "relativePath": "assets/audio/grade3/vowel-teams/seed.wav"
+      },
+      {
+        "word": "leaf",
+        "relativePath": "assets/audio/grade3/vowel-teams/leaf.wav",
+        "source": "reused-ready-course-asset"
+      },
+      {
+        "word": "beach",
+        "relativePath": "assets/audio/grade3/vowel-teams/beach.wav"
+      }
+    ]
+  },
+  "phonemeAudio": {
+    "soundLabel": "/iː/",
+    "relativePath": "assets/audio/grade2/phonemes/long-e.wav",
+    "source": "reused-technically-validated-phoneme"
+  }
+}

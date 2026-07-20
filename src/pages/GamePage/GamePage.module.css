@@ -1,0 +1,229 @@
+.page {
+  display: grid;
+  gap: var(--space-5);
+}
+
+.panel {
+  display: grid;
+  gap: var(--space-3);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  background: var(--color-surface);
+}
+
+.panel h2,
+.panel p {
+  margin: 0;
+}
+
+.kicker {
+  color: var(--color-primary-strong);
+  font-weight: 800;
+}
+
+.letterTiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+.letterTiles span,
+.pairLetter {
+  min-height: 3.5rem;
+  min-width: 3.5rem;
+  display: inline-grid;
+  place-items: center;
+  border-radius: var(--radius-md);
+  background: var(--color-surface-strong);
+  color: var(--color-primary-strong);
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.soundButton,
+.secondaryButton,
+.primaryAction,
+.primaryActionDisabled {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-4);
+  font-weight: 800;
+}
+
+.soundButton,
+.secondaryButton {
+  border: 2px solid var(--color-primary);
+  background: var(--color-surface);
+  color: var(--color-primary-strong);
+}
+
+.primaryAction {
+  background: var(--color-primary);
+  color: white;
+}
+
+.primaryActionDisabled {
+  pointer-events: none;
+  background: var(--color-border);
+  color: var(--color-muted);
+}
+
+.options {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--space-4);
+}
+
+.textOptions {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-4);
+}
+
+.readPrompt {
+  color: var(--color-primary-strong);
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.textOption {
+  min-height: 5rem;
+  place-items: center;
+  align-content: center;
+  font-size: 1.125rem;
+}
+
+.optionCard {
+  display: grid;
+  gap: var(--space-3);
+  align-content: start;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  background: var(--color-surface);
+  color: var(--color-text);
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.optionCard:focus-visible,
+.soundButton:focus-visible,
+.secondaryButton:focus-visible,
+.primaryAction:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 3px;
+}
+
+.optionCardSelected {
+  border-color: var(--color-primary);
+}
+
+.optionCardCorrect {
+  background: #edf8f1;
+}
+
+.optionCardWrong {
+  background: #fff3ef;
+}
+
+.optionImageFrame {
+  aspect-ratio: 1;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface-strong);
+}
+
+.optionImage {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+.recorderPanel {
+  display: grid;
+  gap: var(--space-4);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  background: var(--color-surface);
+}
+
+.helperText {
+  margin: 0;
+  color: var(--color-muted);
+  font-weight: 700;
+}
+
+.statusText {
+  margin-left: var(--space-2);
+  color: var(--color-primary-strong);
+  font-weight: 900;
+}
+
+.sortGroups {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+.sortGroups span {
+  min-height: 3rem;
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--radius-md);
+  padding: var(--space-2) var(--space-4);
+  background: var(--color-surface-strong);
+  color: var(--color-primary-strong);
+  font-weight: 900;
+}
+
+.sortItems {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-4);
+}
+
+.sortCard {
+  display: grid;
+  gap: var(--space-3);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  background: var(--color-surface);
+}
+
+.sortButtons {
+  display: grid;
+  gap: var(--space-2);
+}
+
+@media (max-width: 760px) {
+  .options,
+  .textOptions,
+  .sortItems {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .options,
+  .textOptions,
+  .sortItems {
+    grid-template-columns: 1fr;
+  }
+}

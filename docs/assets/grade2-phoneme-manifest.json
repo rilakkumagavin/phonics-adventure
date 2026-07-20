@@ -1,0 +1,176 @@
+{
+  "curriculumId": "grade-2-phonics",
+  "generatedAt": "2026-07-19",
+  "source": {
+    "type": "local-system-tts",
+    "voice": "Microsoft Zira Desktop",
+    "culture": "en-US",
+    "method": "System.Speech SSML with explicit IPA phonemes",
+    "rate": "-10%"
+  },
+  "reviewStatus": "needs-human-listening",
+  "format": {
+    "container": "wav",
+    "codec": "PCM",
+    "sampleRateHz": 22050,
+    "sampleSizeBits": 16,
+    "channels": 1
+  },
+  "assets": [
+    {
+      "soundLabel": "/aɪ/",
+      "synthesisPhoneme": "aɪ",
+      "relativePath": "assets/audio/grade2/phonemes/long-i.wav"
+    },
+    {
+      "soundLabel": "/ɑ/",
+      "synthesisPhoneme": "ɑ",
+      "relativePath": "assets/audio/grade2/phonemes/short-o.wav"
+    },
+    {
+      "soundLabel": "/æ/",
+      "synthesisPhoneme": "æ",
+      "relativePath": "assets/audio/grade2/phonemes/short-a.wav"
+    },
+    {
+      "soundLabel": "/b/",
+      "synthesisPhoneme": "bə",
+      "relativePath": "assets/audio/grade2/phonemes/b-sound.wav"
+    },
+    {
+      "soundLabel": "/d/",
+      "synthesisPhoneme": "də",
+      "relativePath": "assets/audio/grade2/phonemes/d-sound.wav"
+    },
+    {
+      "soundLabel": "/dʒ/",
+      "synthesisPhoneme": "dʒə",
+      "relativePath": "assets/audio/grade2/phonemes/j-sound.wav"
+    },
+    {
+      "soundLabel": "/eɪ/",
+      "synthesisPhoneme": "eɪ",
+      "relativePath": "assets/audio/grade2/phonemes/long-a.wav"
+    },
+    {
+      "soundLabel": "/ɛ/",
+      "synthesisPhoneme": "ɛ",
+      "relativePath": "assets/audio/grade2/phonemes/short-e.wav"
+    },
+    {
+      "soundLabel": "/f/",
+      "synthesisPhoneme": "f",
+      "relativePath": "assets/audio/grade2/phonemes/f-sound.wav"
+    },
+    {
+      "soundLabel": "/g/",
+      "synthesisPhoneme": "gə",
+      "relativePath": "assets/audio/grade2/phonemes/g-sound.wav"
+    },
+    {
+      "soundLabel": "/h/",
+      "synthesisPhoneme": "hə",
+      "relativePath": "assets/audio/grade2/phonemes/h-sound.wav"
+    },
+    {
+      "soundLabel": "/iː/",
+      "synthesisPhoneme": "iː",
+      "relativePath": "assets/audio/grade2/phonemes/long-e.wav"
+    },
+    {
+      "soundLabel": "/ɪ/",
+      "synthesisPhoneme": "ɪ",
+      "relativePath": "assets/audio/grade2/phonemes/short-i.wav"
+    },
+    {
+      "soundLabel": "/juː/",
+      "synthesisPhoneme": "juː",
+      "relativePath": "assets/audio/grade2/phonemes/long-u.wav"
+    },
+    {
+      "soundLabel": "/k/",
+      "synthesisPhoneme": "kə",
+      "relativePath": "assets/audio/grade2/phonemes/hard-c.wav"
+    },
+    {
+      "soundLabel": "/ks/",
+      "synthesisPhoneme": "ks",
+      "relativePath": "assets/audio/grade2/phonemes/x-sound.wav"
+    },
+    {
+      "soundLabel": "/l/",
+      "synthesisPhoneme": "l",
+      "relativePath": "assets/audio/grade2/phonemes/l-sound.wav"
+    },
+    {
+      "soundLabel": "/m/",
+      "synthesisPhoneme": "m",
+      "relativePath": "assets/audio/grade2/phonemes/m-sound.wav"
+    },
+    {
+      "soundLabel": "/n/",
+      "synthesisPhoneme": "n",
+      "relativePath": "assets/audio/grade2/phonemes/n-sound.wav"
+    },
+    {
+      "soundLabel": "/oʊ/",
+      "synthesisPhoneme": "oʊ",
+      "relativePath": "assets/audio/grade2/phonemes/long-o.wav"
+    },
+    {
+      "soundLabel": "/p/",
+      "synthesisPhoneme": "pə",
+      "relativePath": "assets/audio/grade2/phonemes/p-sound.wav"
+    },
+    {
+      "soundLabel": "/r/",
+      "synthesisPhoneme": "ɹ",
+      "relativePath": "assets/audio/grade2/phonemes/r-sound.wav"
+    },
+    {
+      "soundLabel": "/s/",
+      "synthesisPhoneme": "s",
+      "relativePath": "assets/audio/grade2/phonemes/s-sound.wav"
+    },
+    {
+      "soundLabel": "/t/",
+      "synthesisPhoneme": "tə",
+      "relativePath": "assets/audio/grade2/phonemes/t-sound.wav"
+    },
+    {
+      "soundLabel": "/tʃ/",
+      "synthesisPhoneme": "tʃə",
+      "relativePath": "assets/audio/grade2/phonemes/ch-sound.wav"
+    },
+    {
+      "soundLabel": "/v/",
+      "synthesisPhoneme": "v",
+      "relativePath": "assets/audio/grade2/phonemes/v-sound.wav"
+    },
+    {
+      "soundLabel": "/w/",
+      "synthesisPhoneme": "wə",
+      "relativePath": "assets/audio/grade2/phonemes/w-sound.wav"
+    },
+    {
+      "soundLabel": "/z/",
+      "synthesisPhoneme": "z",
+      "relativePath": "assets/audio/grade2/phonemes/z-sound.wav"
+    },
+    {
+      "soundLabel": "/ʃ/",
+      "synthesisPhoneme": "ʃ",
+      "relativePath": "assets/audio/grade2/phonemes/sh-sound.wav"
+    },
+    {
+      "soundLabel": "/θ/",
+      "synthesisPhoneme": "θ",
+      "relativePath": "assets/audio/grade2/phonemes/th-sound.wav"
+    },
+    {
+      "soundLabel": "/ʌ/",
+      "synthesisPhoneme": "ʌ",
+      "relativePath": "assets/audio/grade2/phonemes/short-u.wav"
+    }
+  ]
+}

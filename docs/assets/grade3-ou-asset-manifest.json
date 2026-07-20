@@ -1,0 +1,39 @@
+{
+  "lessonId": "grade-3-ou-lesson-03",
+  "generatedAt": "2026-07-20",
+  "images": [
+    {
+      "word": "cloud",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_j0hwHLLLzN2u1yt3ybstIqHG.png",
+      "output": "/assets/images/grade3/diphthongs/cloud.webp",
+      "promptSummary": "單一蓬鬆白雲，淺藍背景以保留輪廓，柔和 3D 兒童教具風格。"
+    },
+    {
+      "word": "house",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_gjSY7x88UGaoaAveyTWKw4hB.png",
+      "output": "/assets/images/grade3/diphthongs/house.webp",
+      "promptSummary": "單一紅屋頂、白牆與藍門的玩具房子，暖黃背景，柔和 3D 兒童教具風格。"
+    },
+    {
+      "word": "mouth",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_AskLW09IeAlkOtTdbcE2FqNv.png",
+      "output": "/assets/images/grade3/diphthongs/mouth.webp",
+      "promptSummary": "單一粉紅色閉合嘴唇模型，暖黃背景，乾淨的 3D 兒童教育模型風格。"
+    }
+  ],
+  "audio": {
+    "voice": "Microsoft Zira Desktop",
+    "format": "WAV PCM",
+    "rate": "-10%",
+    "phoneme": {
+      "ipa": "aʊ",
+      "output": "/assets/audio/grade3/diphthongs/ou-sound.wav"
+    },
+    "words": [
+      "/assets/audio/grade3/diphthongs/cloud.wav",
+      "/assets/audio/grade3/diphthongs/house.wav",
+      "/assets/audio/grade3/diphthongs/mouth.wav"
+    ],
+    "reviewStatus": "needs-human-listening"
+  }
+}

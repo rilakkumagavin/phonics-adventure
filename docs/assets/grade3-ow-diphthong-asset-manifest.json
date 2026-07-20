@@ -1,0 +1,39 @@
+{
+  "lessonId": "grade-3-ow-lesson-04",
+  "generatedAt": "2026-07-20",
+  "images": [
+    {
+      "word": "cow",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_ZuYYrY1UKrlNopPjesyI0RtN.png",
+      "output": "/assets/images/grade3/diphthongs/cow.webp",
+      "promptSummary": "單一黑白花紋玩具母牛，暖黃背景，柔和 3D 兒童教具風格。"
+    },
+    {
+      "word": "clown",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_dPOCeZD4UeXXgVlW5vgehyZQ.png",
+      "output": "/assets/images/grade3/diphthongs/clown.webp",
+      "promptSummary": "單一友善小丑穿紅藍色服裝，暖黃背景，柔和 3D 兒童教具風格。"
+    },
+    {
+      "word": "town",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_wbUzH6kECe17HVmsNsVAoayy.png",
+      "output": "/assets/images/grade3/diphthongs/town.webp",
+      "promptSummary": "三棟彩色玩具房子、彎道與小樹組成的單一小鎮模型，暖黃背景。"
+    }
+  ],
+  "audio": {
+    "voice": "Microsoft Zira Desktop",
+    "format": "WAV PCM",
+    "rate": "-10%",
+    "phoneme": {
+      "ipa": "aʊ",
+      "output": "/assets/audio/grade3/diphthongs/ow-sound.wav"
+    },
+    "words": [
+      "/assets/audio/grade3/diphthongs/cow.wav",
+      "/assets/audio/grade3/diphthongs/clown.wav",
+      "/assets/audio/grade3/diphthongs/town.wav"
+    ],
+    "reviewStatus": "needs-human-listening"
+  }
+}

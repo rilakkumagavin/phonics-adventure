@@ -1,0 +1,52 @@
+{
+  "lessonId": "grade-3-oa-ow-lesson-03",
+  "generatedAt": "2026-07-20",
+  "reviewStatus": "needs-human-listening",
+  "images": [
+    {
+      "word": "boat",
+      "relativePath": "assets/images/grade3/vowel-teams/boat.webp",
+      "source": "built-in-image-generation",
+      "promptSummary": "A colorful toy sailboat, centered soft 3D children's educational illustration on a warm pale yellow background."
+    },
+    {
+      "word": "goat",
+      "relativePath": "assets/images/courses/g/g-goat-core.webp",
+      "source": "reused-ready-course-asset"
+    },
+    {
+      "word": "snow",
+      "relativePath": "assets/images/grade3/vowel-teams/snow.webp",
+      "source": "built-in-image-generation",
+      "promptSummary": "A soft pile of white snow with falling snowflakes, centered 3D children's educational illustration."
+    }
+  ],
+  "audio": {
+    "source": {
+      "type": "local-system-tts",
+      "voice": "Microsoft Zira Desktop",
+      "culture": "en-US",
+      "rate": -1
+    },
+    "assets": [
+      {
+        "word": "boat",
+        "relativePath": "assets/audio/grade3/vowel-teams/boat.wav"
+      },
+      {
+        "word": "goat",
+        "relativePath": "assets/audio/grade3/vowel-teams/goat.wav",
+        "source": "reused-ready-course-asset"
+      },
+      {
+        "word": "snow",
+        "relativePath": "assets/audio/grade3/vowel-teams/snow.wav"
+      }
+    ]
+  },
+  "phonemeAudio": {
+    "soundLabel": "/oʊ/",
+    "relativePath": "assets/audio/grade2/phonemes/long-o.wav",
+    "source": "reused-technically-validated-phoneme"
+  }
+}

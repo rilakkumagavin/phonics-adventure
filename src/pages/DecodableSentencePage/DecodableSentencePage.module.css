@@ -1,0 +1,203 @@
+.page {
+  display: grid;
+  gap: var(--space-4);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-4);
+}
+
+.header h2,
+.header p,
+.complete h2,
+.complete p {
+  margin: 0;
+}
+
+.header h2 {
+  margin: var(--space-1) 0;
+  font-size: 2rem;
+}
+
+.eyebrow {
+  color: var(--color-primary-strong);
+  font-weight: 900;
+}
+
+.secondaryAction,
+.primaryAction,
+.sentenceButton,
+.recordButton {
+  min-height: 52px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-5);
+  font-weight: 900;
+}
+
+.secondaryAction {
+  border: 2px solid var(--color-primary);
+  background: var(--color-surface);
+  color: var(--color-primary-strong);
+}
+
+.primaryAction,
+.sentenceButton {
+  background: var(--color-primary);
+  color: white;
+}
+
+.recordButton {
+  background: var(--color-accent);
+  color: white;
+}
+
+.sentenceButton:disabled,
+.recordButton:disabled {
+  background: var(--color-border);
+  color: var(--color-muted);
+}
+
+.progressTrack {
+  height: 0.75rem;
+  overflow: hidden;
+  border-radius: 999px;
+  background: var(--color-border);
+}
+
+.progressTrack span {
+  height: 100%;
+  display: block;
+  border-radius: inherit;
+  background: var(--color-secondary);
+  transition: width 220ms ease;
+}
+
+.lesson {
+  display: grid;
+  grid-template-columns: minmax(14rem, 21rem) minmax(0, 1fr);
+  align-items: center;
+  gap: var(--space-5);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-5);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-soft);
+}
+
+.scene {
+  width: 100%;
+  aspect-ratio: 1;
+  display: block;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  object-fit: cover;
+}
+
+.reading {
+  min-width: 0;
+}
+
+.meaning {
+  margin: 0 0 var(--space-3);
+  color: var(--color-muted);
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.tokens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  min-height: 6rem;
+  align-content: center;
+}
+
+.tokenButton {
+  min-width: 4.5rem;
+  min-height: 4.5rem;
+  border: 3px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+.tokenButton:not(:disabled) {
+  border-color: var(--color-primary);
+}
+
+.tokenCompleted {
+  border-color: var(--color-success);
+  background: var(--color-surface-strong);
+}
+
+.notice {
+  min-height: 3.5rem;
+  margin: var(--space-4) 0 0;
+  border-left: 5px solid var(--color-secondary);
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-surface-strong);
+  font-weight: 800;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+
+.complete {
+  min-height: 65vh;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: var(--space-4);
+  text-align: center;
+}
+
+.complete h2 {
+  font-size: 2rem;
+}
+
+.completedSentence {
+  color: var(--color-accent);
+  font-size: 1.75rem;
+  font-weight: 900;
+}
+
+@media (max-width: 700px) {
+  .header {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .lesson {
+    grid-template-columns: 1fr;
+    padding: var(--space-4);
+  }
+
+  .scene {
+    width: min(100%, 20rem);
+    margin: 0 auto;
+  }
+
+  .tokenButton {
+    flex: 1 1 5rem;
+  }
+
+  .actions > button,
+  .secondaryAction {
+    width: 100%;
+  }
+}

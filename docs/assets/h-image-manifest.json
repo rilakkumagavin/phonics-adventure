@@ -1,0 +1,44 @@
+[
+  {
+    "id": "h-hat-core",
+    "filename": "h-hat-core.webp",
+    "relativePath": "assets/images/courses/h/h-hat-core.webp",
+    "category": "core-word",
+    "courseId": "letter-h",
+    "wordId": "h-hat",
+    "sentenceId": null,
+    "aspectRatio": "1:1",
+    "sourceSize": "1024x1024",
+    "altZhTW": "一頂有藍綠色縫線的紅色帽子",
+    "status": "approved",
+    "promptKey": "h-hat-core"
+  },
+  {
+    "id": "h-hen-core",
+    "filename": "h-hen-core.webp",
+    "relativePath": "assets/images/courses/h/h-hen-core.webp",
+    "category": "core-word",
+    "courseId": "letter-h",
+    "wordId": "h-hen",
+    "sentenceId": null,
+    "aspectRatio": "1:1",
+    "sourceSize": "1024x1024",
+    "altZhTW": "一隻表情友善的金棕色母雞站在簡單背景前",
+    "status": "approved",
+    "promptKey": "h-hen-core"
+  },
+  {
+    "id": "h-hippo-core",
+    "filename": "h-hippo-core.webp",
+    "relativePath": "assets/images/courses/h/h-hippo-core.webp",
+    "category": "core-word",
+    "courseId": "letter-h",
+    "wordId": "h-hippo",
+    "sentenceId": null,
+    "aspectRatio": "1:1",
+    "sourceSize": "1024x1024",
+    "altZhTW": "一隻表情友善的灰藍色小河馬站在簡單背景前",
+    "status": "approved",
+    "promptKey": "h-hippo-core"
+  }
+]

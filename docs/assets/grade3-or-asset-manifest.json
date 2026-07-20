@@ -1,0 +1,39 @@
+{
+  "lessonId": "grade-3-or-lesson-02",
+  "generatedAt": "2026-07-20",
+  "images": [
+    {
+      "word": "corn",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_7y9BNNMbG9QYpHKlWqLUm6hb.png",
+      "output": "/assets/images/grade3/r-controlled-vowels/corn.webp",
+      "promptSummary": "單一黃色玉米與綠色外葉，暖黃背景，柔和 3D 兒童教具風格，無文字。"
+    },
+    {
+      "word": "fork",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_nZJSXmPqSibGCEUbWmNo8yko.png",
+      "output": "/assets/images/grade3/r-controlled-vowels/fork.webp",
+      "promptSummary": "單一銀色四齒叉與藍色圓角握柄，暖黃背景，柔和 3D 兒童教具風格，無其他餐具與文字。"
+    },
+    {
+      "word": "horse",
+      "source": "C:/Users/user/.codex/generated_images/019f13ce-ed56-7be1-a204-56ccc1a46739/call_2HBsSW4oPrw9NpXpPk9dC9It.png",
+      "output": "/assets/images/grade3/r-controlled-vowels/horse.webp",
+      "promptSummary": "單一站立棕色玩具馬，全身清楚，暖黃背景，柔和 3D 兒童教具風格，無騎士與文字。"
+    }
+  ],
+  "audio": {
+    "voice": "Microsoft Zira Desktop",
+    "format": "WAV PCM",
+    "rate": "-10%",
+    "phoneme": {
+      "ipa": "ɔɹ",
+      "output": "/assets/audio/grade3/r-controlled-vowels/or-sound.wav"
+    },
+    "words": [
+      "/assets/audio/grade3/r-controlled-vowels/corn.wav",
+      "/assets/audio/grade3/r-controlled-vowels/fork.wav",
+      "/assets/audio/grade3/r-controlled-vowels/horse.wav"
+    ],
+    "reviewStatus": "needs-human-listening"
+  }
+}
