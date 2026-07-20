@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 
+import { resolveAssetUrl } from '../../assets/resolveAssetUrl';
 import { useAudioPlayer } from '../../audio/useAudioPlayer';
 import { useVoiceRecorder } from '../../audio/useVoiceRecorder';
 import { PageHeader } from '../../components/PageHeader/PageHeader';
@@ -180,7 +181,7 @@ function FocusedLetterLesson({ course }: { course: LetterCourse }) {
 
         <div className={styles.wordStage}>
           <div className={styles.imageFrame}>
-            <img src={word.image.src} alt={word.image.alt} />
+            <img src={resolveAssetUrl(word.image.src)} alt={word.image.alt} />
           </div>
           <div className={styles.wordText}>
             <p className={styles.englishWord}>{word.displayWord}</p>

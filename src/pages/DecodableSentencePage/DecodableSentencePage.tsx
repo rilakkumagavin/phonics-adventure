@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 
+import { resolveAssetUrl } from '../../assets/resolveAssetUrl';
 import { useAudioPlayer } from '../../audio/useAudioPlayer';
 import { useVoiceRecorder } from '../../audio/useVoiceRecorder';
 import type { DecodableSentenceLesson } from '../../curriculum/decodableSentence';
@@ -240,7 +241,11 @@ function SentenceLessonContent({ lesson, grade }: SentenceLessonContentProps) {
       </div>
 
       <main className={styles.lesson}>
-        <img className={styles.scene} src={lesson.image.src} alt={lesson.image.alt} />
+        <img
+          className={styles.scene}
+          src={resolveAssetUrl(lesson.image.src)}
+          alt={lesson.image.alt}
+        />
         <section className={styles.reading}>
           <p className={styles.meaning}>{lesson.meaningZhTW}</p>
           <div className={styles.tokens} aria-label={`${lesson.sentence} 逐字閱讀`}>

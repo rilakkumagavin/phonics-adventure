@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 
+import { resolveAssetUrl } from '../assets/resolveAssetUrl';
 import type { AudioAssetRef } from '../types/asset';
 
 export type AudioPlaybackStatus = 'idle' | 'loading' | 'playing' | 'error';
@@ -93,7 +94,7 @@ export function useAudioPlayer() {
         audioRef.current.currentTime = 0;
       }
 
-      const audio = new Audio(asset.src);
+      const audio = new Audio(resolveAssetUrl(asset.src));
       audioRef.current = audio;
       audio.playbackRate = playbackRate;
 

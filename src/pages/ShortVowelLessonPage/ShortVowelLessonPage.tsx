@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 
+import { resolveAssetUrl } from '../../assets/resolveAssetUrl';
 import { useAudioPlayer } from '../../audio/useAudioPlayer';
 import {
   getGradeTwoBlendingLesson,
@@ -332,7 +333,7 @@ function ShortVowelLessonContent({ lesson, runtime }: ShortVowelLessonContentPro
         </div>
 
         <div className={styles.wordStage}>
-          <img src={word.image.src} alt={word.image.alt} />
+          <img src={resolveAssetUrl(word.image.src)} alt={word.image.alt} />
           <div className={styles.practice}>
             <div
               className={styles.segmentRow}

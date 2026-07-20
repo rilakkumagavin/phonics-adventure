@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router-dom';
 
+import { resolveAssetUrl } from '../../assets/resolveAssetUrl';
 import { useAudioPlayer } from '../../audio/useAudioPlayer';
 import { useVoiceRecorder } from '../../audio/useVoiceRecorder';
 import { PageHeader } from '../../components/PageHeader/PageHeader';
@@ -180,7 +181,7 @@ function ListenAndChooseGame({
               <span className={styles.optionImageFrame}>
                 <img
                   className={styles.optionImage}
-                  src={choice.image.src}
+                  src={resolveAssetUrl(choice.image.src)}
                   alt={label}
                 />
               </span>
@@ -291,7 +292,7 @@ function LetterImageMatchGame({
               <span className={styles.optionImageFrame}>
                 <img
                   className={styles.optionImage}
-                  src={pair.image.src}
+                  src={resolveAssetUrl(pair.image.src)}
                   alt={pair.image.alt}
                 />
               </span>
@@ -574,7 +575,7 @@ function SoundSortGame({
               <span className={styles.optionImageFrame}>
                 <img
                   className={styles.optionImage}
-                  src={item.image.src}
+                  src={resolveAssetUrl(item.image.src)}
                   alt={item.image.alt}
                 />
               </span>

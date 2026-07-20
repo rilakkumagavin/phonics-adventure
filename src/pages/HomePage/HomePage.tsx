@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 
+import { resolveAssetUrl } from '../../assets/resolveAssetUrl';
 import { ProgressBar } from '../../components/ProgressBar/ProgressBar';
 import { getAllCourses } from '../../courses/courseRepository';
 import {
@@ -45,7 +46,10 @@ export function HomePage() {
         </div>
 
         <div className={styles.preview} aria-label="下一個學習單字">
-          <img src={previewWord.image.src} alt={previewWord.image.alt} />
+          <img
+            src={resolveAssetUrl(previewWord.image.src)}
+            alt={previewWord.image.alt}
+          />
           <strong>{previewWord.displayWord}</strong>
         </div>
       </section>
