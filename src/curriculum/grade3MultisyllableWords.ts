@@ -24,8 +24,8 @@ export const gradeThreeCompoundWordsLesson = createBlendingLesson({
       audioSrc: `${audioRoot}/sunset.wav`,
       pattern: 'compound',
       segments: [
-        { grapheme: 'sun', soundLabel: 'sun', audioSrc: `${audioRoot}/sun.wav` },
-        { grapheme: 'set', soundLabel: 'set', audioSrc: `${audioRoot}/set.wav` },
+        { grapheme: 'sun', soundLabel: '/sʌn/', audioSrc: `${audioRoot}/sun.wav` },
+        { grapheme: 'set', soundLabel: '/sɛt/', audioSrc: `${audioRoot}/set.wav` },
       ],
     },
     {
@@ -36,10 +36,10 @@ export const gradeThreeCompoundWordsLesson = createBlendingLesson({
       audioSrc: `${audioRoot}/cupcake.wav`,
       pattern: 'compound',
       segments: [
-        { grapheme: 'cup', soundLabel: 'cup', audioSrc: `${audioRoot}/cup.wav` },
+        { grapheme: 'cup', soundLabel: '/kʌp/', audioSrc: `${audioRoot}/cup.wav` },
         {
           grapheme: 'cake',
-          soundLabel: 'cake',
+          soundLabel: '/keɪk/',
           audioSrc: `${audioRoot}/cake.wav`,
         },
       ],
@@ -54,12 +54,12 @@ export const gradeThreeCompoundWordsLesson = createBlendingLesson({
       segments: [
         {
           grapheme: 'rain',
-          soundLabel: 'rain',
+          soundLabel: '/reɪn/',
           audioSrc: `${audioRoot}/rain.wav`,
         },
         {
           grapheme: 'coat',
-          soundLabel: 'coat',
+          soundLabel: '/koʊt/',
           audioSrc: `${audioRoot}/coat.wav`,
         },
       ],
@@ -257,8 +257,8 @@ export const gradeThreeMultisyllableChallengeLesson = createBlendingLesson({
       audioSrc: `${audioRoot}/sunset.wav`,
       pattern: 'compound',
       segments: [
-        { grapheme: 'sun', soundLabel: 'sun', audioSrc: `${audioRoot}/sun.wav` },
-        { grapheme: 'set', soundLabel: 'set', audioSrc: `${audioRoot}/set.wav` },
+        { grapheme: 'sun', soundLabel: '/sʌn/', audioSrc: `${audioRoot}/sun.wav` },
+        { grapheme: 'set', soundLabel: '/sɛt/', audioSrc: `${audioRoot}/set.wav` },
       ],
     },
     {
