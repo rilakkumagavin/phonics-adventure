@@ -275,7 +275,7 @@ function SentenceLessonContent({ lesson, grade }: SentenceLessonContentProps) {
         ))}
       </ol>
 
-      <main className={styles.lesson}>
+      <section className={styles.lesson}>
         <img
           className={styles.scene}
           src={resolveAssetUrl(lesson.image.src)}
@@ -357,7 +357,7 @@ function SentenceLessonContent({ lesson, grade }: SentenceLessonContentProps) {
             ) : null}
           </div>
         </section>
-      </main>
+      </section>
     </div>
   );
 }

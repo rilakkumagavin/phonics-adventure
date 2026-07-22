@@ -359,7 +359,7 @@ function ShortVowelLessonContent({ lesson, runtime }: ShortVowelLessonContentPro
         ))}
       </ol>
 
-      <main className={styles.lesson}>
+      <section className={styles.lesson}>
         <div className={styles.wordMeta}>
           <span>
             第 {wordIndex + 1} 個字，共 {lesson.words.length} 個
@@ -436,7 +436,7 @@ function ShortVowelLessonContent({ lesson, runtime }: ShortVowelLessonContentPro
             </div>
           </div>
         </div>
-      </main>
+      </section>
     </div>
   );
 }
