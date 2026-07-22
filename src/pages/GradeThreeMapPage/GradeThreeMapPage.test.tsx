@@ -42,6 +42,41 @@ describe('GradeThreeMapPage', () => {
     localStorage.clear();
   });
 
+  it('renders progress rails for every grade 3 unit', () => {
+    render(
+      <MemoryRouter>
+        <GradeThreeMapPage />
+      </MemoryRouter>,
+    );
+
+    const progressBars = screen.getAllByRole('progressbar');
+
+    expect(progressBars).toHaveLength(6);
+    expect(progressBars.every((bar) => bar.getAttribute('aria-valuenow') === '0')).toBe(
+      true,
+    );
+  });
+
+  it('updates the visible unit progress rail after a lesson is complete', () => {
+    completeGradeThreeLesson({
+      lessonId: gradeThreeAiAyLesson.id,
+      completedAt: new Date(2026, 6, 20, 11, 0),
+    });
+
+    render(
+      <MemoryRouter>
+        <GradeThreeMapPage />
+      </MemoryRouter>,
+    );
+
+    expect(screen.getAllByRole('progressbar')[0]).toHaveAttribute(
+      'aria-valuenow',
+      '17',
+    );
+    expect(screen.getByText('下一課')).toBeInTheDocument();
+    expect(screen.getByText(gradeThreeEeEaLesson.title)).toBeInTheDocument();
+  });
+
   it('顯示 ai/ay 第一課入口，其餘單元依序鎖定', () => {
     render(
       <MemoryRouter>

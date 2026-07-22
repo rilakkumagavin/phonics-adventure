@@ -324,6 +324,41 @@ function ShortVowelLessonContent({ lesson, runtime }: ShortVowelLessonContentPro
         <span style={{ width: `${progress}%` }} />
       </div>
 
+      <section className={styles.lessonOverview} aria-label="課程概覽">
+        <div>
+          <span>練習重點</span>
+          <strong>{lesson.vowelGrapheme}</strong>
+          <small>{lesson.vowelSoundLabel}</small>
+        </div>
+        <div>
+          <span>練習方式</span>
+          <strong>{isSyllablePractice ? '音節拆讀' : '音素拼讀'}</strong>
+          <small>{lesson.words.length} 個單字</small>
+        </div>
+        <div>
+          <span>預估時間</span>
+          <strong>{lesson.estimatedMinutes} 分鐘</strong>
+          <small>{nextLesson ? `下一課 ${nextLesson.title}` : '單元最後一課'}</small>
+        </div>
+      </section>
+
+      <ol className={styles.wordPath} aria-label="單字練習路徑">
+        {lesson.words.map((lessonWord, index) => (
+          <li
+            className={
+              index < wordIndex
+                ? styles.wordPathCompleted
+                : index === wordIndex
+                  ? styles.wordPathCurrent
+                  : undefined
+            }
+            key={lessonWord.id}
+          >
+            <strong>{index + 1}. {lessonWord.word}</strong>
+          </li>
+        ))}
+      </ol>
+
       <main className={styles.lesson}>
         <div className={styles.wordMeta}>
           <span>
@@ -360,13 +395,7 @@ function ShortVowelLessonContent({ lesson, runtime }: ShortVowelLessonContentPro
                     onClick={() => void playSegment(segmentIndex)}
                   >
                     <span>{segment.grapheme}</span>
-                    <small>
-                      {isLocked
-                        ? '等一下'
-                        : segment.isSilent
-                          ? '不發音'
-                          : segment.soundLabel}
-                    </small>
+                    <small>{segment.isSilent ? '不發音' : segment.soundLabel}</small>
                   </button>
                 );
               })}

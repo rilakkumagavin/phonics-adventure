@@ -18,7 +18,7 @@ describe('ProgressPage', () => {
     expect(screen.getByRole('heading', { name: '我的進度' })).toBeInTheDocument();
     expect(screen.getByText('已完成字母：0／26')).toBeInTheDocument();
     expect(screen.getByText('答對次數：0')).toBeInTheDocument();
-    expect(screen.getAllByText('0%')).toHaveLength(3);
+    expect(screen.getAllByText('0%')).toHaveLength(9);
   });
 
   it('讀取 localStorage 顯示已完成字母與能力熟練度', () => {

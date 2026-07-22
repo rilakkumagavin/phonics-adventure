@@ -80,6 +80,68 @@
   transition: width 220ms ease;
 }
 
+.readingOverview {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr) minmax(0, 1fr);
+  gap: var(--space-3);
+}
+
+.readingOverview div {
+  min-width: 0;
+  display: grid;
+  gap: var(--space-1);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+  background: var(--color-surface);
+}
+
+.readingOverview span,
+.readingOverview small {
+  color: var(--color-muted);
+  font-weight: 800;
+}
+
+.readingOverview strong {
+  color: var(--color-primary-strong);
+  font-size: 1.15rem;
+  font-weight: 900;
+  overflow-wrap: anywhere;
+}
+
+.tokenPath {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tokenPath li {
+  min-height: 2.75rem;
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-1) var(--space-3);
+  background: var(--color-surface);
+  color: var(--color-muted);
+  font-weight: 900;
+}
+
+.tokenPathCompleted {
+  border-color: var(--color-success);
+  background: var(--color-surface-strong);
+  color: var(--color-primary-strong);
+}
+
+.tokenPathCurrent {
+  border-color: var(--color-secondary);
+  background: #fff7df;
+  color: var(--color-text);
+}
+
 .lesson {
   display: grid;
   grid-template-columns: minmax(14rem, 21rem) minmax(0, 1fr);
@@ -185,6 +247,10 @@
   .lesson {
     grid-template-columns: 1fr;
     padding: var(--space-4);
+  }
+
+  .readingOverview {
+    grid-template-columns: 1fr;
   }
 
   .scene {

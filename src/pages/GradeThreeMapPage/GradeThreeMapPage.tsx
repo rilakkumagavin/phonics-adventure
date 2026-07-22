@@ -13,6 +13,14 @@ import {
 import { loadGradeThreeProgress } from '../../progress/gradeThreeProgress';
 import styles from './GradeThreeMapPage.module.css';
 
+function getLessonTitle(lessonId: string) {
+  return (
+    getGradeThreeBlendingLesson(lessonId)?.title ??
+    getGradeThreeReadingLesson(lessonId)?.title ??
+    lessonId
+  );
+}
+
 export function GradeThreeMapPage() {
   const progress = loadGradeThreeProgress();
 
@@ -70,17 +78,30 @@ export function GradeThreeMapPage() {
               : 'entryPath' in unit
                 ? unit.entryPath
                 : undefined;
+          const completedLessonCount = unit.lessonIds.filter(
+            (lessonId) => progress.lessons[lessonId]?.completed,
+          ).length;
+          const completionPercent =
+            unit.lessonIds.length > 0
+              ? Math.round((completedLessonCount / unit.lessonIds.length) * 100)
+              : 0;
+          const unitClassName = `${styles.unit} ${
+            isLocked
+              ? styles.unitLocked
+              : isCompleted
+                ? styles.unitCompleted
+                : isPracticing
+                  ? styles.unitPracticing
+                  : styles.unitReady
+          }`;
           const latestPracticeDate = lessonProgress
             .map((lesson) => lesson.lastPracticedDate)
             .filter((date): date is string => Boolean(date))
             .sort()
             .at(-1);
-          const completedLessonCount = unit.lessonIds.filter(
-            (lessonId) => progress.lessons[lessonId]?.completed,
-          ).length;
 
           return (
-            <article className={styles.unit} key={unit.id}>
+            <article className={unitClassName} key={unit.id}>
               <div className={styles.unitNumber} aria-hidden="true">
                 {unit.order}
               </div>
@@ -91,7 +112,15 @@ export function GradeThreeMapPage() {
                     <h3>{unit.title}</h3>
                   </div>
                   <span
-                    className={`${styles.status} ${styles.statusReady}`}
+                    className={`${styles.status} ${
+                      isLocked
+                        ? styles.statusLocked
+                        : isCompleted
+                          ? styles.statusCompleted
+                          : isPracticing
+                            ? styles.statusPracticing
+                            : styles.statusReady
+                    }`}
                   >
                     {isLocked
                       ? '先完成上一單元'
@@ -108,12 +137,48 @@ export function GradeThreeMapPage() {
                     <li key={goal}>{goal}</li>
                   ))}
                 </ul>
+                <div
+                  className={styles.unitProgress}
+                  role="progressbar"
+                  aria-label={`${unit.title} progress`}
+                  aria-valuemin={0}
+                  aria-valuemax={100}
+                  aria-valuenow={completionPercent}
+                >
+                  <span style={{ width: `${completionPercent}%` }} />
+                </div>
+                <div className={styles.lessonNodes} aria-hidden="true">
+                  {unit.lessonIds.map((lessonId) => {
+                    const lessonCompleted = progress.lessons[lessonId]?.completed;
+                    const isNextLesson = !isLocked && lessonId === nextLessonId;
+
+                    return (
+                      <span
+                        className={`${styles.lessonNode} ${
+                          lessonCompleted
+                            ? styles.lessonNodeCompleted
+                            : isNextLesson
+                              ? styles.lessonNodeCurrent
+                              : ''
+                        }`}
+                        key={lessonId}
+                        title={getLessonTitle(lessonId)}
+                      />
+                    );
+                  })}
+                </div>
                 <p className={styles.lessonCount}>
                   已完成 {completedLessonCount} / {unit.lessonIds.length} 課
                 </p>
                 <p className={styles.lastPractice}>
                   最近練習：{latestPracticeDate ?? '還沒有紀錄'}
                 </p>
+                {nextLessonId && !isLocked ? (
+                  <p className={styles.nextLesson}>
+                    <span>{isCompleted ? '複習' : '下一課'}</span>
+                    {getLessonTitle(nextLessonId)}
+                  </p>
+                ) : null}
                 {actionPath ? (
                   <Link className={styles.primaryAction} to={actionPath}>
                     {isCompleted

@@ -39,12 +39,34 @@
   display: grid;
   grid-template-columns: 4.5rem minmax(0, 1fr);
   gap: var(--space-4);
-  border-bottom: 1px solid var(--color-border);
-  padding: var(--space-5) 0;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-5);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-soft);
 }
 
 .unit:first-child {
   border-top: 1px solid var(--color-border);
+}
+
+.unitReady {
+  border-color: var(--color-primary);
+}
+
+.unitPracticing {
+  border-color: var(--color-secondary);
+  background: #fffaf0;
+}
+
+.unitCompleted {
+  border-color: var(--color-success);
+  background: var(--color-surface-strong);
+}
+
+.unitLocked {
+  background: #f2f4f3;
+  box-shadow: none;
 }
 
 .unitNumber {
@@ -103,6 +125,23 @@
   color: var(--color-primary-strong);
 }
 
+.statusPracticing {
+  border-color: var(--color-secondary);
+  background: #fff7df;
+  color: var(--color-text);
+}
+
+.statusCompleted {
+  border-color: var(--color-success);
+  background: #e7f7ef;
+  color: var(--color-primary-strong);
+}
+
+.statusLocked {
+  background: #f2f4f3;
+  color: var(--color-muted);
+}
+
 .subtitle {
   margin-top: var(--space-2);
   color: var(--color-muted);
@@ -122,7 +161,47 @@
   padding-right: var(--space-3);
 }
 
+.unitProgress {
+  height: 0.7rem;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #dfe8e4;
+}
+
+.unitProgress span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+}
+
+.lessonNodes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+}
+
+.lessonNode {
+  width: 1.15rem;
+  height: 1.15rem;
+  border: 2px solid var(--color-border);
+  border-radius: 999px;
+  background: var(--color-surface);
+}
+
+.lessonNodeCurrent {
+  border-color: var(--color-secondary);
+  background: var(--color-secondary);
+}
+
+.lessonNodeCompleted {
+  border-color: var(--color-success);
+  background: var(--color-success);
+}
+
 .lessonCount {
+  margin-top: var(--space-3);
   color: var(--color-primary-strong);
   font-weight: 800;
 }
@@ -133,11 +212,26 @@
   font-weight: 800;
 }
 
+.nextLesson {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin: var(--space-2) 0 0;
+  color: var(--color-text);
+  font-weight: 900;
+}
+
+.nextLesson span {
+  border-radius: var(--radius-sm);
+  padding: 0 var(--space-2);
+  background: var(--color-secondary);
+}
+
 @media (max-width: 560px) {
   .unit {
     grid-template-columns: 3.25rem minmax(0, 1fr);
     gap: var(--space-3);
-    padding: var(--space-4) 0;
+    padding: var(--space-4);
   }
 
   .unitNumber {

@@ -240,6 +240,41 @@ function SentenceLessonContent({ lesson, grade }: SentenceLessonContentProps) {
         <span style={{ width: `${progress}%` }} />
       </div>
 
+      <section className={styles.readingOverview} aria-label="閱讀概覽">
+        <div>
+          <span>閱讀目標</span>
+          <strong>{lesson.title}</strong>
+          <small>{lesson.tokens.length} 個詞</small>
+        </div>
+        <div>
+          <span>練習句子</span>
+          <strong>{lesson.sentence}</strong>
+          <small>{lesson.meaningZhTW}</small>
+        </div>
+        <div>
+          <span>預估時間</span>
+          <strong>{lesson.estimatedMinutes} 分鐘</strong>
+          <small>{nextLesson ? `下一篇 ${nextLesson.title}` : '單元最後一篇'}</small>
+        </div>
+      </section>
+
+      <ol className={styles.tokenPath} aria-label="逐詞閱讀路徑">
+        {lesson.tokens.map((token, tokenIndex) => (
+          <li
+            className={
+              tokenIndex < nextTokenIndex
+                ? styles.tokenPathCompleted
+                : tokenIndex === nextTokenIndex
+                  ? styles.tokenPathCurrent
+                  : undefined
+            }
+            key={token.id}
+          >
+            <strong>{tokenIndex + 1}. {token.text}</strong>
+          </li>
+        ))}
+      </ol>
+
       <main className={styles.lesson}>
         <img
           className={styles.scene}
